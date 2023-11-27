@@ -1,3 +1,5 @@
+import 'dart:ui';
+
 import 'package:flutter/material.dart';
 
 class MainScreen extends StatelessWidget {
@@ -7,7 +9,6 @@ class MainScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         backgroundColor: Colors.deepPurple.shade900,
-        appBar: AppBar(),
         body: SingleChildScrollView(
           child: Column(
             children: [
@@ -34,10 +35,11 @@ class MainScreen extends StatelessWidget {
                         ),
                         alignment: Alignment.center,
                         child: Text(
-                          "안녕하세요? 포트폴리오 입니다",
+                          "WE CAN DO EVERYTHING",
                           style: TextStyle(
                             color: Colors.black,
-                            fontSize: 25,
+                            fontSize: 35,
+                            fontWeight: FontWeight.bold,
                             shadows: [
                               Shadow(
                                 blurRadius: 5,
@@ -49,6 +51,25 @@ class MainScreen extends StatelessWidget {
                         ),
                       ),
                     ),
+                    // Positioned(
+                    //   left: 0,
+                    //   top: 0,
+                    //   bottom: 0,
+                    //   width: 300,
+                    //   child: ClipRect(
+                    //     child: BackdropFilter(
+                    //       filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
+                    //       child: Container(
+                    //         decoration: BoxDecoration(
+                    //             color: Colors.white.withOpacity(0.2),
+                    //             border: Border.all(
+                    //               width: 1.5,
+                    //               color: Colors.white.withOpacity(0.2),
+                    //             )),
+                    //       ),
+                    //     ),
+                    //   ),
+                    // ),
                   ],
                 ),
               ),
