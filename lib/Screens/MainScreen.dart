@@ -1,85 +1,50 @@
+import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutterweb/Screens/Components/FlipPhone.dart';
+import 'package:flutterweb/Screens/Components/MainBackground.dart';
+import 'package:glassmorphism/glassmorphism.dart';
 
 class MainScreen extends StatelessWidget {
   const MainScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
+    double h = MediaQuery.of(context).size.height;
+    double w = MediaQuery.of(context).size.width;
     return Scaffold(
-        backgroundColor: Colors.deepPurple.shade900,
-        body: SingleChildScrollView(
+        body: Stack(
+      children: [
+        SingleChildScrollView(
           child: Column(
             children: [
               Container(
-                height: MediaQuery.of(context).size.height,
+                height: h,
+                width: w,
                 child: Stack(
+                  alignment: Alignment.center,
                   children: [
                     Positioned(
                       top: 0,
                       bottom: 0,
                       left: 0,
                       right: 0,
-                      child: Container(
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            colors: [
-                              Colors.black,
-                              Colors.white,
-                              Colors.black,
-                            ],
-                            begin: Alignment.topCenter,
-                            end: Alignment.bottomCenter,
-                          ),
-                        ),
-                        alignment: Alignment.center,
-                        child: Text(
-                          "WE CAN DO EVERYTHING",
-                          style: TextStyle(
-                            color: Colors.black,
-                            fontSize: 35,
-                            fontWeight: FontWeight.bold,
-                            shadows: [
-                              Shadow(
-                                blurRadius: 5,
-                                offset: Offset(0, 0),
-                                color: Colors.black,
-                              )
-                            ],
-                          ),
-                        ),
-                      ),
+                      child: MainBackgroundWidget(),
                     ),
-                    // Positioned(
-                    //   left: 0,
-                    //   top: 0,
-                    //   bottom: 0,
-                    //   width: 300,
-                    //   child: ClipRect(
-                    //     child: BackdropFilter(
-                    //       filter: ImageFilter.blur(sigmaX: 2, sigmaY: 2),
-                    //       child: Container(
-                    //         decoration: BoxDecoration(
-                    //             color: Colors.white.withOpacity(0.2),
-                    //             border: Border.all(
-                    //               width: 1.5,
-                    //               color: Colors.white.withOpacity(0.2),
-                    //             )),
-                    //       ),
-                    //     ),
-                    //   ),
-                    // ),
+                    Positioned(
+                      child: Transform.rotate(
+                        angle: pi * 30 / 180,
+                        child: FilpPhoneWidget(),
+                      ),
+                    )
                   ],
                 ),
               ),
-              Container(
-                height: 550,
-                decoration:
-                    BoxDecoration(color: Color.fromARGB(255, 11, 4, 42)),
-              )
             ],
           ),
-        ));
+        ),
+      ],
+    ));
   }
 }
