@@ -22,7 +22,7 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 4),
+      duration: const Duration(seconds: 6),
     )..repeat(
         reverse: false,
       );
@@ -35,8 +35,10 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
       });
   }
 
-  double Phone_Width = 240;
-  double Phone_Height = 400;
+  double Phone_size = 150;
+  late double Phone_Width = Phone_size;
+  late double Phone_Height = 2.165 * Phone_size;
+  double thickness = 12;
   @override
   Widget build(BuildContext context) {
     return Transform(
@@ -47,11 +49,11 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
       child: Stack(
         children: [
           _animation.value > 2
-              ? bottomPhone(Phone_Height, Phone_Width)
-              : topPhone(Phone_Width),
+              ? bottomPhone(Phone_Height, Phone_Width, thickness)
+              : topPhone(Phone_Width, thickness),
           Transform(
             transform: _animation.value > 1 && _animation.value < 3
-                ? (Matrix4.identity()..translate(0, 0, 20))
+                ? (Matrix4.identity()..translate(0, 0, thickness))
                 : (Matrix4.identity()..translate(0, 0, 0)),
             child: Container(
               child: _animation.value > 1 && _animation.value < 3
@@ -68,90 +70,97 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
             ),
           ),
           _animation.value < 0.8 || _animation.value > 2.8
-              ? rightPhone(Phone_Height)
-              : leftPhone(Phone_Height, Phone_Width),
+              ? rightPhone(Phone_Height, thickness)
+              : leftPhone(Phone_Height, Phone_Width, thickness),
           _animation.value < 0.8 || _animation.value > 2.8
-              ? leftPhone(Phone_Height, Phone_Width)
-              : rightPhone(Phone_Height),
+              ? leftPhone(Phone_Height, Phone_Width, thickness)
+              : rightPhone(Phone_Height, thickness),
           Transform(
             transform: _animation.value > 1 && _animation.value < 3
                 ? (Matrix4.identity()..translate(0, 0, 0))
-                : (Matrix4.identity()..translate(0, 0, 20)),
+                : (Matrix4.identity()..translate(0, 0, thickness)),
             child: Container(
               child: _animation.value <= 1 || _animation.value >= 3
                   ? Container(
                       color: Colors.blue,
                       width: Phone_Width,
                       height: Phone_Height,
+                      child: Image.asset('assets/img0.png'),
                     )
                   : Container(
                       width: Phone_Width,
                       height: Phone_Height,
-                      color: Colors.green,
+                      child: Transform(
+                        alignment: Alignment.center,
+                        transform: Matrix4.rotationY(pi),
+                        child: Image.asset(
+                          'assets/img1.png',
+                        ),
+                      ),
                     ),
             ),
           ),
           _animation.value < 2
-              ? bottomPhone(Phone_Height, Phone_Width)
-              : topPhone(Phone_Width),
+              ? bottomPhone(Phone_Height, Phone_Width, thickness)
+              : topPhone(Phone_Width, thickness),
         ],
       ),
     );
   }
 }
 
-Transform rightPhone(double height) {
+Transform rightPhone(double height, double thickness) {
   return Transform(
     alignment: Alignment.bottomRight,
     transform: Matrix4.identity()
-      ..translate(-20, 0, 0)
+      ..translate(-thickness, 0, 0)
       ..rotateY(pi * 90 / 180),
     child: Container(
-      width: 20,
+      width: thickness,
       height: height,
-      color: Colors.purple,
+      color: Colors.grey,
     ),
   );
 }
 
-Transform leftPhone(double height, double width) {
+Transform leftPhone(double height, double width, double thickness) {
   return Transform(
     alignment: Alignment.bottomRight,
     transform: Matrix4.identity()
-      ..translate(width - 20, 0, 0)
+      ..translate(width - thickness, 0, 0)
       ..rotateY(pi * 90 / 180),
     child: Container(
-      width: 20,
+      width: thickness,
       height: height,
-      color: Colors.amber,
+      color: Colors.grey,
     ),
   );
 }
 
-Transform bottomPhone(double height, double width) {
+Transform bottomPhone(double height, double width, double thickness) {
   return Transform(
     transform: Matrix4.identity()
       ..translate(0, height, 0)
       ..rotateZ(-pi * 90 / 180)
       ..rotateY(-pi * 90 / 180),
     child: Container(
-      width: 20,
+      width: thickness,
       height: width,
-      color: Colors.brown,
+      color: Colors.grey,
     ),
   );
 }
 
-Transform topPhone(double width) {
+Transform topPhone(double width, double thickness) {
   return Transform(
     transform: Matrix4.identity()
       ..translate(0, 0, 0)
       ..rotateZ(-pi * 90 / 180)
       ..rotateY(-pi * 90 / 180),
     child: Container(
-      width: 20,
+      width: thickness,
       height: width,
-      color: Colors.white,
+      color: Colors.grey,
     ),
   );
 }
