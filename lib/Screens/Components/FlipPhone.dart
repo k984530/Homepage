@@ -60,7 +60,7 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
             pi * _animation.value / 2),
       child: Stack(
         children: [
-          _animation.value > 2
+          _animation.value > 2 && _animation.value <= 4
               ? bottomPhone(Phone_Height, Phone_Width, thickness)
               : topPhone(Phone_Width, thickness),
           Transform(
@@ -72,17 +72,27 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
                   ? Container(
                       width: Phone_Width,
                       height: Phone_Height,
+                      child: Image.asset(
+                        project.fullAddr,
+                        fit: BoxFit.fill,
+                      ),
                     )
                   : Container(
                       width: Phone_Width,
                       height: Phone_Height,
+                      child: Image.asset(
+                        project.fullAddr,
+                        fit: BoxFit.fill,
+                      ),
                     ),
             ),
           ),
-          _animation.value < 0.8 || _animation.value > 2.8
+          _animation.value < 0.8 ||
+                  (_animation.value > 2.8 && _animation.value < 4.8)
               ? rightPhone(Phone_Height, thickness)
               : leftPhone(Phone_Height, Phone_Width, thickness),
-          _animation.value < 0.8 || _animation.value > 2.8
+          _animation.value < 0.8 ||
+                  (_animation.value > 2.8 && _animation.value < 4.8)
               ? leftPhone(Phone_Height, Phone_Width, thickness)
               : rightPhone(Phone_Height, thickness),
           Transform(
@@ -113,7 +123,7 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
                     ),
             ),
           ),
-          _animation.value < 2
+          _animation.value < 2 || _animation.value > 4
               ? bottomPhone(Phone_Height, Phone_Width, thickness)
               : topPhone(Phone_Width, thickness),
         ],
