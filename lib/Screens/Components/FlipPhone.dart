@@ -4,6 +4,7 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 import 'package:flutterweb/Data/Projects.dart';
+import 'package:flutterweb/Palate.dart';
 import 'package:get/utils.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
 
@@ -141,7 +142,7 @@ Transform rightPhone(double height, double thickness) {
     child: Container(
       width: thickness,
       height: height,
-      color: Colors.grey,
+      color: Palate.PhoneColor,
     ),
   );
 }
@@ -155,7 +156,7 @@ Transform leftPhone(double height, double width, double thickness) {
     child: Container(
       width: thickness,
       height: height,
-      color: Colors.grey,
+      color: Palate.PhoneColor,
     ),
   );
 }
@@ -169,7 +170,7 @@ Transform bottomPhone(double height, double width, double thickness) {
     child: Container(
       width: thickness,
       height: width,
-      color: Colors.grey,
+      color: Palate.PhoneColor,
     ),
   );
 }
@@ -183,7 +184,7 @@ Transform topPhone(double width, double thickness) {
     child: Container(
       width: thickness,
       height: width,
-      color: Colors.grey,
+      color: Palate.PhoneColor,
     ),
   );
 }

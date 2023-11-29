@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -18,6 +19,16 @@ class ProfileScreen extends StatelessWidget {
         Container(
           width: w,
           height: h,
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+              colors: [
+                Colors.blue.shade700,
+                Colors.blue.shade200,
+              ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
+          ),
         ),
         Container(
           height: h,
@@ -26,10 +37,9 @@ class ProfileScreen extends StatelessWidget {
             alignment: Alignment.center,
             children: [
               Positioned(
-                top: 150,
-                left: 10,
+                bottom: 150,
                 child: Text(
-                  "안녕하세요, \n최원입니다",
+                  "Mobile App Develop",
                   style: GoogleFonts.blackHanSans(
                     fontSize: 30,
                     color: Colors.grey,
@@ -39,21 +49,30 @@ class ProfileScreen extends StatelessWidget {
               Positioned(
                 bottom: 60,
                 right: 0,
-                child: Container(
-                  width: 400,
-                  height: 400,
-                  decoration: BoxDecoration(
-                    color: Colors.blue[300],
-                    borderRadius: BorderRadius.circular(200),
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(40),
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(
+                      sigmaX: 4,
+                      sigmaY: 4,
+                    ),
+                    child: Container(
+                      width: 400,
+                      height: 400,
+                      decoration: BoxDecoration(
+                        color: Colors.white24,
+                        borderRadius: BorderRadius.circular(40),
+                        border: Border.all(
+                          color: Colors.white38,
+                        ),
+                      ),
+                      alignment: Alignment.center,
+                      child: Transform.rotate(
+                        angle: pi * 30 / 180,
+                        child: FilpPhoneWidget(),
+                      ),
+                    ),
                   ),
-                ),
-              ),
-              Positioned(
-                bottom: 100,
-                right: 120,
-                child: Transform.rotate(
-                  angle: pi * 30 / 180,
-                  child: FilpPhoneWidget(),
                 ),
               ),
             ],
@@ -62,7 +81,12 @@ class ProfileScreen extends StatelessWidget {
         Positioned(
           bottom: 10,
           right: 10,
-          child: Text("Made by Flutter"),
+          child: Text(
+            "Made by Flutter",
+            style: TextStyle(
+              color: Colors.white,
+            ),
+          ),
         )
       ],
     );
