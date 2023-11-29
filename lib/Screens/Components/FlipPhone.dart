@@ -1,6 +1,9 @@
+import 'dart:async';
+import 'dart:io';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:flutterweb/Data/Projects.dart';
 import 'package:get/utils.dart';
 import 'package:vector_math/vector_math_64.dart' as vector;
 
@@ -16,7 +19,7 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
   late AnimationController _controller;
   late Animation _animation;
   AnimationStatus _status = AnimationStatus.dismissed;
-
+  Projects project = Projects();
   @override
   void initState() {
     super.initState();
@@ -26,13 +29,22 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
     )..repeat(
         reverse: false,
       );
-    _animation = Tween(end: 4.0, begin: 0).animate(_controller)
+    _animation = Tween(end: 5.0, begin: 1.0).animate(_controller)
       ..addListener(() {
         setState(() {});
       })
       ..addStatusListener((status) {
         _status = status;
       });
+    Timer.periodic(Duration(seconds: 3), (timer) {
+      project.ReturnImgAddr();
+    });
+  }
+
+  @override
+  void dispose() {
+    super.dispose();
+    _controller.dispose();
   }
 
   double Phone_size = 150;
@@ -58,14 +70,12 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
             child: Container(
               child: _animation.value > 1 && _animation.value < 3
                   ? Container(
-                      color: Colors.blue,
                       width: Phone_Width,
                       height: Phone_Height,
                     )
                   : Container(
                       width: Phone_Width,
                       height: Phone_Height,
-                      color: Colors.green,
                     ),
             ),
           ),
@@ -82,10 +92,12 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
             child: Container(
               child: _animation.value <= 1 || _animation.value >= 3
                   ? Container(
-                      color: Colors.blue,
                       width: Phone_Width,
                       height: Phone_Height,
-                      child: Image.asset('assets/img0.png'),
+                      child: Image.asset(
+                        project.fullAddr,
+                        fit: BoxFit.fill,
+                      ),
                     )
                   : Container(
                       width: Phone_Width,
@@ -94,7 +106,8 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
                         alignment: Alignment.center,
                         transform: Matrix4.rotationY(pi),
                         child: Image.asset(
-                          'assets/img1.png',
+                          project.fullAddr,
+                          fit: BoxFit.fill,
                         ),
                       ),
                     ),

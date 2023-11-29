@@ -6,6 +6,7 @@ class CustomAppbar extends StatelessWidget {
   final ScrollController VerScroll;
   @override
   Widget build(BuildContext context) {
+    double h = MediaQuery.of(context).size.height;
     return Container(
       decoration: BoxDecoration(
           color: Colors.white.withOpacity(0.2),
@@ -36,7 +37,7 @@ class CustomAppbar extends StatelessWidget {
           Spacer(),
           GestureDetector(
             onTap: () {
-              VerScroll.animateTo(VerScroll.position.maxScrollExtent,
+              VerScroll.animateTo(h,
                   duration: Duration(milliseconds: 200), curve: Curves.ease);
             },
             child: Text(
@@ -50,11 +51,17 @@ class CustomAppbar extends StatelessWidget {
           SizedBox(
             width: 55,
           ),
-          Text(
-            "Log",
-            style: GoogleFonts.poppins(
-              fontSize: 20,
-              color: Colors.grey[700],
+          GestureDetector(
+            onTap: () {
+              VerScroll.animateTo(h * 2,
+                  duration: Duration(milliseconds: 200), curve: Curves.ease);
+            },
+            child: Text(
+              "Log",
+              style: GoogleFonts.poppins(
+                fontSize: 20,
+                color: Colors.grey[700],
+              ),
             ),
           ),
           SizedBox(

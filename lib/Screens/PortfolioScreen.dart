@@ -13,6 +13,7 @@ class PortfolioScreen extends StatelessWidget {
       width: w,
       height: h,
       child: Stack(
+        alignment: Alignment.bottomCenter,
         children: [
           HorizontalScroll(
             controller: HorScroll,
@@ -30,10 +31,65 @@ class PortfolioScreen extends StatelessWidget {
               ],
             ),
           ),
-          Container(
-            height: 100,
-            color: Colors.cyan,
-          ),
+          Positioned(
+            bottom: 30,
+            child: Row(
+              children: [
+                Container(
+                  width: 30,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.grey,
+                  ),
+                ),
+                SizedBox(
+                  width: 5,
+                ),
+                Container(
+                  width: 10,
+                  height: 10,
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(5),
+                    color: Colors.grey,
+                  ),
+                ),
+              ],
+            ),
+          )
         ],
       ),
     );

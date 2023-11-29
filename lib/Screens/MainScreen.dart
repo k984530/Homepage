@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterweb/Screens/Components/CustomAppbar.dart';
 import 'package:flutterweb/Screens/Components/FlipPhone.dart';
 import 'package:flutterweb/Screens/Components/HorizontalScroll.dart';
+import 'package:flutterweb/Screens/LogScreen.dart';
 import 'package:flutterweb/Screens/ProfileScreen.dart';
 import 'package:glassmorphism/glassmorphism.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -32,15 +33,16 @@ class MainScreen extends StatelessWidget {
                 PortfolioScreen(
                   HorScroll: HorScroll,
                 ),
+                LogScreen(),
               ],
             ),
           ),
-          SizedBox(height: 10),
           Positioned(
-              top: 0,
-              width: w,
-              height: 100,
-              child: CustomAppbar(VerScroll: VerScroll)),
+            top: 0,
+            width: w,
+            height: 100,
+            child: CustomAppbar(VerScroll: VerScroll),
+          ),
         ],
       ),
     );
