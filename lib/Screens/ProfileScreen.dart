@@ -37,12 +37,12 @@ class ProfileScreen extends StatelessWidget {
             alignment: Alignment.center,
             children: [
               Positioned(
-                bottom: 150,
+                top: 150,
                 child: Text(
                   "Mobile App Develop",
                   style: GoogleFonts.blackHanSans(
                     fontSize: 30,
-                    color: Colors.grey,
+                    color: Colors.white,
                   ),
                 ),
               ),
