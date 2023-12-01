@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:io';
 import 'dart:math';
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutterweb/Data/Projects.dart';
@@ -188,3 +189,33 @@ Transform topPhone(double width, double thickness) {
     ),
   );
 }
+
+FlipPhone() => Positioned(
+      bottom: 60,
+      right: 25,
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(40),
+        child: BackdropFilter(
+          filter: ImageFilter.blur(
+            sigmaX: 4,
+            sigmaY: 4,
+          ),
+          child: Container(
+            width: 350,
+            height: 400,
+            decoration: BoxDecoration(
+              color: Colors.white.withOpacity(0.2),
+              borderRadius: BorderRadius.circular(40),
+              border: Border.all(
+                color: Colors.white38,
+              ),
+            ),
+            alignment: Alignment.center,
+            child: Transform.rotate(
+              angle: pi * 30 / 180,
+              child: FilpPhoneWidget(),
+            ),
+          ),
+        ),
+      ),
+    );
