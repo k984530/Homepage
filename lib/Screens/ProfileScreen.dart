@@ -39,16 +39,16 @@ class ProfileScreen extends StatelessWidget {
               Positioned(
                 top: 150,
                 child: Text(
-                  "Mobile App Develop",
+                  "창의적인 인터렉티브한 앱을 추구하는 개발자입니다.",
                   style: GoogleFonts.blackHanSans(
                     fontSize: 30,
-                    color: Colors.white,
+                    color: Colors.white.withOpacity(0.85),
                   ),
                 ),
               ),
               Positioned(
                 bottom: 60,
-                right: 0,
+                right: 25,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(40),
                   child: BackdropFilter(
@@ -57,10 +57,10 @@ class ProfileScreen extends StatelessWidget {
                       sigmaY: 4,
                     ),
                     child: Container(
-                      width: 400,
+                      width: 350,
                       height: 400,
                       decoration: BoxDecoration(
-                        color: Colors.white24,
+                        color: Colors.white.withOpacity(0.2),
                         borderRadius: BorderRadius.circular(40),
                         border: Border.all(
                           color: Colors.white38,
