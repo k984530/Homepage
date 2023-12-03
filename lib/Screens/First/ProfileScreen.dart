@@ -2,8 +2,8 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'package:flutterweb/Screens/Components/History.dart';
-import 'package:flutterweb/Screens/Components/SkillSet.dart';
+import 'package:flutterweb/Screens/First/Components/History.dart';
+import 'package:flutterweb/Screens/First/Components/SkillSet.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
 

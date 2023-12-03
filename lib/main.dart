@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterweb/Screens/MainScreen.dart';
-import 'package:flutterweb/Screens/SecondMainScreen.dart';
+import 'package:flutterweb/Screens/First/MainScreen.dart';
+import 'package:flutterweb/Screens/Second/SecondMainScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
         useMaterial3: true,
       ),
-      home: SecondMainScreen(),
+      home: MainScreen(),
     );
   }
 }
