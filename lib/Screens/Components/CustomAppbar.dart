@@ -12,7 +12,7 @@ class CustomAppbar extends StatelessWidget {
       decoration: BoxDecoration(
         color: Colors.white.withOpacity(0.2),
         border: Border.all(
-          color: Colors.grey,
+          color: Colors.white38,
         ),
       ),
       alignment: Alignment.center,

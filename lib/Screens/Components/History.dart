@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 double pointSize = 17;
-
+Color pointColor = Colors.grey.shade50;
 History() => Positioned(
       bottom: 50,
       right: 450,
@@ -15,58 +15,59 @@ History() => Positioned(
             top: 20,
             child: Container(
               height: 600,
-              width: 2,
+              width: 1,
               color: Colors.grey.shade50,
             ),
           ),
-          Positioned(
-            child: Row(
+          SingleChildScrollView(
+            child: Column(
               children: [
-                Container(
-                  width: pointSize,
-                  height: pointSize,
-                  margin: EdgeInsets.only(right: 15),
-                  decoration: BoxDecoration(
-                    color: Colors.amber,
-                    borderRadius: BorderRadius.circular(13),
-                  ),
-                ),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(10),
-                  child: Container(
-                    padding: EdgeInsets.symmetric(
-                      horizontal: 10,
-                      vertical: 5,
-                    ),
-                    decoration: BoxDecoration(
-                      color: Colors.white24,
-                      borderRadius: BorderRadius.circular(10),
-                      border: Border.all(
-                        color: Colors.white,
-                      ),
-                    ),
-                    child: Text(
-                      "2023.10\nNFC & QR PAY 든든한끼",
-                      style: GoogleFonts.nanumGothic(
-                        color: Colors.white,
-                      ),
-                    ),
-                  ),
-                ),
+                ...HistoryContent('2022.10\nNFC & QR PAY 든든한끼'),
+                ...HistoryContent('2022.10\nNFC & QR PAY 든든한끼'),
               ],
-            ),
-          ),
-          Positioned(
-            top: 120,
-            child: Container(
-              width: pointSize,
-              height: pointSize,
-              decoration: BoxDecoration(
-                color: Colors.red,
-                borderRadius: BorderRadius.circular(13),
-              ),
             ),
           ),
         ],
       ),
     );
+
+HistoryContent(String content) => [
+      Row(
+        children: [
+          Container(
+            width: pointSize,
+            height: pointSize,
+            margin: EdgeInsets.only(right: 15),
+            decoration: BoxDecoration(
+              color: pointColor,
+              borderRadius: BorderRadius.circular(13),
+            ),
+          ),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(10),
+            child: Container(
+              padding: EdgeInsets.symmetric(
+                horizontal: 10,
+                vertical: 5,
+              ),
+              decoration: BoxDecoration(
+                color: Colors.white24,
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(
+                  color: Colors.white38,
+                ),
+              ),
+              child: Text(
+                content,
+                style: GoogleFonts.nanumGothic(
+                  color: Colors.white,
+                ),
+              ),
+            ),
+          ),
+        ],
+      ),
+      SizedBox(
+        height: 50,
+      ),
+    ];
