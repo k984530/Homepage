@@ -13,14 +13,18 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'PortfolioScreen.dart';
 
+late double h;
+late double w;
+
 class MainScreen extends StatelessWidget {
   MainScreen({super.key});
   ScrollController VerScroll = ScrollController();
   ScrollController HorScroll = ScrollController();
+
   @override
   Widget build(BuildContext context) {
-    double h = MediaQuery.of(context).size.height;
-    double w = MediaQuery.of(context).size.width;
+    h = MediaQuery.of(context).size.height;
+    w = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: Color.fromARGB(19, 0, 0, 0),
       body: Stack(
@@ -30,10 +34,10 @@ class MainScreen extends StatelessWidget {
             controller: VerScroll,
             child: Column(
               children: [
-                ProfileScreen(),
                 PortfolioScreen(
                   HorScroll: HorScroll,
                 ),
+                ProfileScreen(),
                 Container(
                   width: w,
                   height: h,
