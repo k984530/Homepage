@@ -42,26 +42,56 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                Container(
-                  width: w,
-                  color: Colors.purple,
-                ),
-                Container(
-                  width: w,
-                  color: Colors.black,
-                ),
-                Container(
-                  width: w,
-                  color: Colors.purple,
-                ),
-                Container(
-                  width: w,
-                  color: Colors.black,
-                ),
-                Container(
-                  width: w,
-                  color: Colors.purple,
-                ),
+                for (int i = 0; i < 5; i++)
+                  Container(
+                    width: w,
+                    height: h,
+                    color: i % 2 == 0 ? Colors.amber : Colors.blue,
+                    child: Stack(
+                      children: [
+                        Positioned(
+                          right: 0,
+                          height: h,
+                          width: w * 0.4,
+                          child: Container(
+                            color: Colors.white54,
+                            alignment: Alignment.center,
+                            child: Text("Img"),
+                          ),
+                        ),
+                        Positioned(
+                          top: 100,
+                          right: w * 0.4,
+                          height: h * 0.1,
+                          width: w * 0.6,
+                          child: Container(
+                            color: Colors.white54,
+                            alignment: Alignment.center,
+                            child: Text(
+                              "FisherMap",
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 24,
+                              ),
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          top: 100 + h * 0.1,
+                          right: w * 0.4,
+                          height: h * 0.9 - 100,
+                          width: w * 0.6,
+                          child: Container(
+                            color: Colors.white54,
+                            alignment: Alignment.center,
+                            child: Text(
+                              "Explain(Lang, Skill, content, period)",
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
               ],
             ),
           ),
@@ -70,7 +100,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
             child: Row(
               children: [
                 for (int i = 1; i <= 5; i++)
-                  GestureDetector(
+                  InkWell(
                     onTap: () {
                       widget.HorScroll.animateTo(
                         w * (i - 1),
@@ -79,7 +109,6 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                       );
                       setState(() {
                         index = i;
-                        print('test');
                       });
                     },
                     child: AnimatedContainer(

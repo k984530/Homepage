@@ -25,7 +25,7 @@ class CustomAppbar extends StatelessWidget {
             SizedBox(
               width: 55,
             ),
-            GestureDetector(
+            InkWell(
               onTap: () {
                 VerScroll.animateTo(VerScroll.position.minScrollExtent,
                     duration: Duration(milliseconds: 200), curve: Curves.ease);
@@ -40,7 +40,7 @@ class CustomAppbar extends StatelessWidget {
               ),
             ),
             Spacer(),
-            GestureDetector(
+            InkWell(
               onTap: () {
                 VerScroll.animateTo(h,
                     duration: Duration(milliseconds: 200), curve: Curves.ease);
@@ -56,7 +56,7 @@ class CustomAppbar extends StatelessWidget {
             SizedBox(
               width: 55,
             ),
-            GestureDetector(
+            InkWell(
               onTap: () {
                 VerScroll.animateTo(h * 2,
                     duration: Duration(milliseconds: 200), curve: Curves.ease);
