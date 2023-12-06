@@ -13,7 +13,7 @@ class Portfolio001 extends StatelessWidget {
     return Container(
       width: w,
       height: h,
-      color: Colors.blue[700],
+      color: const Color.fromARGB(255, 0, 87, 175),
       child: Stack(
         children: [
           Positioned(
@@ -82,32 +82,129 @@ class Portfolio001 extends StatelessWidget {
             height: h * 0.9 - 100,
             width: w * 0.6,
             child: Container(
-              color: Colors.white54,
-              padding: EdgeInsets.only(left: w * 0.1),
+              color: Colors.white24,
+              padding: EdgeInsets.only(left: w * 0.1, right: w * 0.05),
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text.rich(
                     TextSpan(
-                      text: '사용 언어 및 툴 : ',
-                      style: GoogleFonts.aBeeZee(
+                      text: '사용 언어 및 툴\n',
+                      style: GoogleFonts.ibmPlexSansKr(
                         fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 18,
                       ),
                       children: [
                         TextSpan(
                           text: 'Dart(Flutter), Python(Flask), Git',
-                          style: GoogleFonts.aDLaMDisplay(),
+                          style: TextStyle(
+                            fontWeight: FontWeight.normal,
+                            fontSize: 13,
+                          ),
                         ),
                       ],
                     ),
                   ),
-                  Text("개발 기간 : 1주"),
-                  Text("팀 : 앱 개발자 2명, 인공지능 개발자 1명\n기여도 : App 85 % Server 10 %"),
-                  Text(
-                      "설명\n청년 귀어들을 위한 서비스입니다. 지역별 날씨, 해안 정보, 어종 예측, 어선 중계, 귀어지원사업 공지 모음 기능등을 제공합니다. 인터렉티브한 앱을 만들기위해 애니메이션 효과에 집중하여 만든 앱입니다."),
-                  Text(
-                      "회고\n단 기간 내에 개발을 해야했기에 비교적 간편한 상태관리 라이브러리인 GetX를 사용해서 구현했습니다. CustomCliper, CustomPainter 등을 사용해서 파도를 표현하였고, Container에 눈과 입을 그렸습니다. Http를 사용하여 웹 크롤링 기능이 가능하다는 것을 알 수 있었습니다. ZWidget을 사용해서 글자에 3D 효과를 더했으며, Flutter가 3D 베이스로 렌더링 된다는 사실을 알 수 있었습니다."),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text.rich(
+                    TextSpan(
+                      text: '개발 기간\n',
+                      style: GoogleFonts.ibmPlexSansKr(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 18,
+                      ),
+                      children: [
+                        TextSpan(
+                          text: '2023.11.10 - 2023.11.20 (10일)',
+                          style: TextStyle(
+                            fontWeight: FontWeight.normal,
+                            fontSize: 13,
+                          ),
+                        )
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text.rich(
+                    TextSpan(
+                      text: '팀 구성 및 기여도\n',
+                      style: GoogleFonts.ibmPlexSansKr(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 18,
+                      ),
+                      children: [
+                        TextSpan(
+                          text: '앱 개발자 2명, 인공지능 개발자 1명, App 85 % Server 10 %',
+                          style: TextStyle(
+                            fontWeight: FontWeight.normal,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text.rich(
+                    TextSpan(
+                      text: '설명\n',
+                      style: GoogleFonts.ibmPlexSansKr(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 18,
+                      ),
+                      children: [
+                        TextSpan(
+                          text:
+                              '청년 귀어들을 위한 서비스입니다. 지역별 날씨, 해안 정보, 어종 예측, 어선 중계, 귀어지원사업 공지 모음 기능등을 제공합니다. 인터렉티브한 앱을 만들기위해 애니메이션 효과에 집중하여 만든 앱입니다.',
+                          style: TextStyle(
+                            fontWeight: FontWeight.normal,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  Text.rich(
+                    TextSpan(
+                      text: '회고\n',
+                      style: GoogleFonts.ibmPlexSansKr(
+                        fontWeight: FontWeight.bold,
+                        color: Colors.white,
+                        fontSize: 18,
+                      ),
+                      children: [
+                        TextSpan(
+                          text:
+                              "부산 해양데이터 해커톤에 참여하여 만든 서비스입니다. 단 기간 내에 개발을 해야했기에 비교적 간편한 상태관리 라이브러리인 GetX를 사용해서 구현했습니다. CustomCliper, CustomPainter 등을 사용해서 파도를 표현하였고, Container에 눈과 입을 그렸습니다. Http를 사용하여 웹 크롤링 기능이 가능하다는 것을 알 수 있었습니다. ZWidget을 사용해서 글자에 3D 효과를 더했으며, Flutter가 3D를 기반으로 렌더링 된다는 사실을 알 수 있었습니다.",
+                          style: TextStyle(
+                            fontWeight: FontWeight.normal,
+                            fontSize: 13,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                  SizedBox(
+                    height: 25,
+                  ),
+                  Image.asset(
+                    'assets/git.png',
+                    color: Colors.white,
+                    width: 50,
+                  )
                 ],
               ),
             ),
