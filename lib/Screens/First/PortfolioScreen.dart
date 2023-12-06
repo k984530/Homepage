@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutterweb/Screens/First/Portfolios/FirstPortfolio.dart';
 import 'package:get/state_manager.dart';
 
 import 'Components/HorizontalScroll.dart';
@@ -31,7 +32,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
     double h = MediaQuery.of(context).size.height;
     double w = MediaQuery.of(context).size.width;
     Color nav = Colors.white;
-    return Container(
+    return SizedBox(
       width: w,
       height: h,
       child: Stack(
@@ -42,56 +43,13 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                for (int i = 0; i < 5; i++)
+                Portfolio001(),
+                for (int i = 0; i < 4; i++)
                   Container(
                     width: w,
                     height: h,
-                    color: i % 2 == 0 ? Colors.amber : Colors.blue,
-                    child: Stack(
-                      children: [
-                        Positioned(
-                          right: 0,
-                          height: h,
-                          width: w * 0.4,
-                          child: Container(
-                            color: Colors.white54,
-                            alignment: Alignment.center,
-                            child: Text("Img"),
-                          ),
-                        ),
-                        Positioned(
-                          top: 100,
-                          right: w * 0.4,
-                          height: h * 0.1,
-                          width: w * 0.6,
-                          child: Container(
-                            color: Colors.white54,
-                            alignment: Alignment.center,
-                            child: Text(
-                              "FisherMap",
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 24,
-                              ),
-                            ),
-                          ),
-                        ),
-                        Positioned(
-                          top: 100 + h * 0.1,
-                          right: w * 0.4,
-                          height: h * 0.9 - 100,
-                          width: w * 0.6,
-                          child: Container(
-                            color: Colors.white54,
-                            alignment: Alignment.center,
-                            child: Text(
-                              "Explain(Lang, Skill, content, period)",
-                            ),
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
+                    color: i % 2 == 0 ? Colors.blueGrey : Colors.amber,
+                  )
               ],
             ),
           ),

@@ -56,8 +56,10 @@ class _FilpPhoneWidgetState extends State<FilpPhoneWidget>
   @override
   Widget build(BuildContext context) {
     return Transform(
-      alignment: FractionalOffset.bottomRight,
+      alignment: FractionalOffset.center,
       transform: Matrix4.identity()
+        ..setEntry(2, 3, 0.001)
+        ..rotateZ(pi * 30 / 180)
         ..rotate(vector.Vector3(Phone_Width, Phone_Height, 0),
             pi * _animation.value / 2),
       child: Stack(
@@ -179,7 +181,6 @@ Transform bottomPhone(double height, double width, double thickness) {
 Transform topPhone(double width, double thickness) {
   return Transform(
     transform: Matrix4.identity()
-      ..translate(0, 0, 0)
       ..rotateZ(-pi * 90 / 180)
       ..rotateY(-pi * 90 / 180),
     child: Container(
@@ -211,10 +212,7 @@ FlipPhone() => Positioned(
               ),
             ),
             alignment: Alignment.center,
-            child: Transform.rotate(
-              angle: pi * 30 / 180,
-              child: FilpPhoneWidget(),
-            ),
+            child: FilpPhoneWidget(),
           ),
         ),
       ),
