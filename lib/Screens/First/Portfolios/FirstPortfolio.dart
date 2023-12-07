@@ -6,14 +6,19 @@ import 'package:google_fonts/google_fonts.dart';
 import '../MainScreen.dart';
 
 class Portfolio001 extends StatelessWidget {
-  const Portfolio001({super.key});
+  Portfolio001({super.key});
+
+  Color Title = Colors.blue;
+  Color Subject = Colors.blue;
+  Color Content = Colors.blue;
+  Color Background = Colors.blue;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       width: w,
       height: h,
-      color: const Color.fromARGB(255, 0, 87, 175),
+      color: Colors.black,
       child: Stack(
         children: [
           Positioned(
@@ -65,12 +70,12 @@ class Portfolio001 extends StatelessWidget {
             height: h * 0.1,
             width: w * 0.6,
             child: Container(
-              color: Colors.white10,
               alignment: Alignment.center,
+              decoration: BoxDecoration(border: Border.all(color: Title)),
               child: Text(
                 "FisherMap",
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Title,
                   fontSize: 36,
                 ),
               ),
@@ -93,15 +98,15 @@ class Portfolio001 extends StatelessWidget {
                       text: '사용 언어 및 툴\n',
                       style: GoogleFonts.ibmPlexSansKr(
                         fontWeight: FontWeight.bold,
-                        color: Colors.white,
+                        color: Colors.grey,
                         fontSize: 18,
                       ),
                       children: [
                         TextSpan(
                           text: 'Dart(Flutter), Python(Flask), Git',
-                          style: TextStyle(
+                          style: GoogleFonts.notoSansKr(
                             fontWeight: FontWeight.normal,
-                            fontSize: 13,
+                            fontSize: 15,
                           ),
                         ),
                       ],
@@ -121,9 +126,9 @@ class Portfolio001 extends StatelessWidget {
                       children: [
                         TextSpan(
                           text: '2023.11.10 - 2023.11.20 (10일)',
-                          style: TextStyle(
+                          style: GoogleFonts.notoSansKr(
                             fontWeight: FontWeight.normal,
-                            fontSize: 13,
+                            fontSize: 15,
                           ),
                         )
                       ],
@@ -143,9 +148,9 @@ class Portfolio001 extends StatelessWidget {
                       children: [
                         TextSpan(
                           text: '앱 개발자 2명, 인공지능 개발자 1명, App 85 % Server 10 %',
-                          style: TextStyle(
+                          style: GoogleFonts.notoSansKr(
                             fontWeight: FontWeight.normal,
-                            fontSize: 13,
+                            fontSize: 15,
                           ),
                         ),
                       ],
@@ -166,9 +171,9 @@ class Portfolio001 extends StatelessWidget {
                         TextSpan(
                           text:
                               '청년 귀어들을 위한 서비스입니다. 지역별 날씨, 해안 정보, 어종 예측, 어선 중계, 귀어지원사업 공지 모음 기능등을 제공합니다. 인터렉티브한 앱을 만들기위해 애니메이션 효과에 집중하여 만든 앱입니다.',
-                          style: TextStyle(
+                          style: GoogleFonts.notoSansKr(
                             fontWeight: FontWeight.normal,
-                            fontSize: 13,
+                            fontSize: 15,
                           ),
                         ),
                       ],
@@ -189,9 +194,9 @@ class Portfolio001 extends StatelessWidget {
                         TextSpan(
                           text:
                               "부산 해양데이터 해커톤에 참여하여 만든 서비스입니다. 단 기간 내에 개발을 해야했기에 비교적 간편한 상태관리 라이브러리인 GetX를 사용해서 구현했습니다. CustomCliper, CustomPainter 등을 사용해서 파도를 표현하였고, Container에 눈과 입을 그렸습니다. Http를 사용하여 웹 크롤링 기능이 가능하다는 것을 알 수 있었습니다. ZWidget을 사용해서 글자에 3D 효과를 더했으며, Flutter가 3D를 기반으로 렌더링 된다는 사실을 알 수 있었습니다.",
-                          style: TextStyle(
+                          style: GoogleFonts.notoSansKr(
                             fontWeight: FontWeight.normal,
-                            fontSize: 13,
+                            fontSize: 15,
                           ),
                         ),
                       ],
