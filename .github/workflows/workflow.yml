@@ -1,16 +1,36 @@
-name: gh-pages
-
+name: Flutter Web
 on:
   push:
-    branches: [main]
-
+    branches:
+      - master
 jobs:
   build:
+    name: Build Web
+    env:
+      my_secret: $
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v1
       - uses: subosito/flutter-action@v1
-      - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          baseHref: /Homepage/
+          channel: 'dev'
+      - run: flutter config --enable-web
+      - run: flutter pub get
+      - run: flutter build web --release
+        # 1. change path which exist lib/main.dart
+        working-directory: lib/main.dart
+      - run: |
+          # 2. change path to [existed lib/main.dart path]/build/web
+          cd lib/build/web
+          git init
+          # 3. change your email
+          git config --global user.email alyduho984530@gmail.com
+          # 4. change your name
+          git config --global user.name choiwon
+          git status
+          # 5. change your repository
+          git remote add origin https://github.com/k984530/Homepage.git
+          git checkout -b gh-pages
+          git add --all
+          git commit -m "update"
+          git push origin gh-pages -f
