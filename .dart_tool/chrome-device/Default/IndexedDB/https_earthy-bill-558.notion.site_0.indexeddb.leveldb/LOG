@@ -1,0 +1,6 @@
+2023/12/03-16:06:58.647 a303 Creating DB /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.qKA4SG/flutter_tools_chrome_device.kMW3bM/Default/IndexedDB/https_earthy-bill-558.notion.site_0.indexeddb.leveldb since it was missing.
+2023/12/03-16:06:58.653 a303 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.qKA4SG/flutter_tools_chrome_device.kMW3bM/Default/IndexedDB/https_earthy-bill-558.notion.site_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/03-16:06:59.575 f703 Level-0 table #5: started
+2023/12/03-16:06:59.578 f703 Level-0 table #5: 2667 bytes OK
+2023/12/03-16:06:59.586 f703 Delete type=0 #3
+2023/12/03-16:06:59.587 a407 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

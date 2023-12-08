@@ -1,0 +1,147 @@
+{
+   "checksum": "73fd195637f15287b152672c8d0fbab7",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13323489330057324",
+            "date_last_used": "0",
+            "guid": "499b4517-ddd9-4bdc-931c-94a8ff0d007a",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "의료 AI 효시 왓슨 역사속으로…토종 인공지능 미래는?",
+            "type": "url",
+            "url": "https://www.medicaltimes.com/Main/News/NewsView.html?ID=1145556"
+         }, {
+            "date_added": "13324040994453196",
+            "date_last_used": "0",
+            "guid": "40482a4e-97eb-4825-9d38-029f801d74a5",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "한경 컨센서스 | 한경코리아마켓 | 한국경제",
+            "type": "url",
+            "url": "https://markets.hankyung.com/consensus"
+         }, {
+            "date_added": "13325014299991227",
+            "date_last_used": "0",
+            "guid": "fe7d3984-a54a-4f2c-a104-cd55fb31ccc8",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "플랜 관리 | Quizlet",
+            "type": "url",
+            "url": "https://quizlet.com/settings/manage-subscription"
+         }, {
+            "date_added": "13326203947825570",
+            "date_last_used": "13336919441538450",
+            "guid": "4933131c-147c-4b36-b0df-3043de3a5a3a",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "New chat",
+            "type": "url",
+            "url": "https://chat.openai.com/"
+         }, {
+            "date_added": "13333184801959312",
+            "date_last_used": "0",
+            "guid": "4884ea45-24a3-4b42-86ef-50357ebed912",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "dnlsehdn whgkqzl - Google 검색",
+            "type": "url",
+            "url": "https://www.google.com/search?q=dnlsehdn+whgkqzl&oq=dnlsehdn+whgkqzl&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABiABNIBDDE2MjA2OThqMGoxNagCALACAA&sourceid=chrome&ie=UTF-8"
+         }, {
+            "date_added": "13333184813430853",
+            "date_last_used": "13345222110354076",
+            "guid": "813b82ff-ba34-42c5-9a25-fc247b037c95",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "윈도우키와 조합한 단축키 : 네이버 블로그",
+            "type": "url",
+            "url": "https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=lymj1234&logNo=221572505654"
+         }, {
+            "date_added": "13336919447810022",
+            "date_last_used": "0",
+            "guid": "d83b29a5-9122-4914-a317-73628b04966b",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "새 탭",
+            "type": "url",
+            "url": "chrome://newtab/"
+         }, {
+            "date_added": "13336919736058353",
+            "date_last_used": "0",
+            "guid": "d6b2f054-9422-4ab8-b365-aef1f9cdedfe",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "auth0.openai.com/u/login/identifier?state=hKFo2SB5YlFtbkZmTVhiZG1oWUdhQWVUNjlISHZUbHJFT0thYqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEdTWTV3NU5mcHhyQThkLVBlS3BwQnFGSzdiN2VTVU5Wo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q",
+            "type": "url",
+            "url": "https://auth0.openai.com/u/login/identifier?state=hKFo2SB5YlFtbkZmTVhiZG1oWUdhQWVUNjlISHZUbHJFT0thYqFur3VuaXZlcnNhbC1sb2dpbqN0aWTZIEdTWTV3NU5mcHhyQThkLVBlS3BwQnFGSzdiN2VTVU5Wo2NpZNkgRFJpdnNubTJNdTQyVDNLT3BxZHR3QjNOWXZpSFl6d0Q"
+         }, {
+            "date_added": "13336920285642758",
+            "date_last_used": "0",
+            "guid": "a82bb5b5-7f7e-48cb-9518-b88f5446b3d3",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Overview - OpenAI API",
+            "type": "url",
+            "url": "https://platform.openai.com/playground"
+         }, {
+            "date_added": "13337414221216154",
+            "date_last_used": "0",
+            "guid": "25111f62-e8c3-47df-8b1d-04e9827e9483",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "새로운 기능",
+            "type": "url",
+            "url": "chrome://whats-new/"
+         } ],
+         "date_added": "13345470451900296",
+         "date_last_used": "0",
+         "date_modified": "13337414221216154",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "북마크바",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13345470451900297",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "기타 북마크",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13345470451900298",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "모바일 북마크",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "Cq8BCo4BCIiBAhKHASAAkgF9CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCcgbhE+nCwYAEcgbhE+nCwYAKQTmh0+nCwYACkUKFmFubm90YXRpb25fY2hyb21lX3N5bmMSBTUxIWJkGhIJAHakSqcLBgARAHakSqcLBgApoBiET6cLBgAwgOyR1fT0ggO6AQIIARIAKhhBY2xVaFRiSXNLOTJlSzBoYWlWL0JRPT1IAxLDAQgDEr4BChxuamdEdTg4ZUNydlhwODZwRDdmSEdjcUZwODg9EmZaOkFEcXRBWnlzbldIRlJzeUdPQmVmTHFja2RTSFhsa0JmUkdEaTBtblJzYWtMcGxXNUx6NWFzbGxYVkhPMjZXazQ3WjVzbGQ4djlwN3ZFRE82VGJVMFRvWjB5UjViWHFNWnNRPT0YACAAKAAw2rjm5c7hggM4AEAAShx5ek5CMDFjbjU0QTdjUlUwdVQrL1BnbVR0VW89WgBlAAAAABLsAQgMEucBChw0N2FuZ0NPT2pscFlBOXM1aUFDWHpnTkVHSE09EmZaOkFEcXRBWnlMVnVGdDhWaVJuNXpCRHZOb2M0cTFoTVBReWFlWngxUXN1U21pdHJFVkdaMXJDVjZiVTdCKzUyNW1mNjdkelU3THZKSC81dXQzK1RDWVZuaXpLb2FwanNpNUpBPT0YACAAKAAw6fHOn9fogAM4wq287aAxQMKtvO2gMUocMmF0WFM0bU85VGJUbUptU0JTNmQwaWl0dDNRPVofIh3+Y1VtSU8xbS8rUDBmSFE4eHBBcEI2bHBxY1I0PWUAAAAAEuwBCAkS5wEKHHVjTHlMcktOblI4TDVLaFJOeVlJblNYWHJtcz0SZlo6QURxdEFaeUxWdUZ0OFZpUm41ekJEdk5vYzRxMVhPWFVudkFaWDMxWXNtc1p3Q1BZTDRBSmtvZFpsVHpKZVo2RFc1N1FRbnFUZ1F6bkx5R285Nm9UVFhoTStyNnM4aFkrc3c9PRgAIAMoAzCmltyz8/SCAzjCrbztoDFAtuL9l8MxShxlV3NBRy8vQ2M5NWFnb0N2cUJIaDJ0V0l2Tzg9Wh8iHfd5c21kUmU3Q1RpaGIwT1pzcFUxRnRZaGNJMkE9ZRAw/+QS7AEIDRLnAQocOHg0bG5Ta3g0S2QrS2N6UG9vNjFwdENubmtVPRJmWjpBRHF0QVp5TFZ1RnQ4VmlSbjV6QkR2Tm9jNHExYU95b2p5MEp0SzU0MmxRcUtyV0VXWmJFKzFIYlpQN0hqS2EvRmsvVTZGVXNBR3BYN05aeXMyQ3BLRVMrckIrcEtYZkZkQT09GAAgAigCMNfjhufO4YIDOMKtvO2gMUCx8YDcwDFKHFRKNDZNOFVzZGUzdTBPM1prLzkwWit3NzdlVT1aHyId/01LZ2hKNVV1NUMzd2FNSlVSVFZVL09JbFViVT1lY3ysXxKrAQgBEqYBChx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9Ek5aOkFEcXRBWndUNXZyZnlWL0k5VHovZy9pZkxvUkxLYURUUFlaa2RHU1ZrMXJHNkhHdTdjeVhSbWFmRDAvNW5Rd2ZpV3d2L0xmVTRTSHAYACAAKAAw2rjm5c7hggM4AEAAShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABLtAQgOEugBChxXZ0pjZE9QUStGN3puTmRqVk80SXpTZWxLRG89EmZaOkFEcXRBWnlMVnVGdDhWaVJuNXpCRHZOb2M0cTFWaTB2c2g0VGI3ZzZiMkhBVElod1FsZVg1bjY0UzJnTk05WVhkQTduUitHaGI1S3JuTGt5OVpYOUVvdVA0bkZFQ29pUmNRPT0YACAAKAAwgtnWo4f3gAM4oav/2KIxQKGr/9iiMUocQ2ppM08wRFU0d0lpMTVjN3dxNnpjZEhOU3hJPVogIh7/pkpsT28yeVZ2SDNVZVMyT3d0NWZOdUhBRVd4ND1lNHafoBLsAQgLEucBChxyZnFJd1VSRDBNUzZubTFGRTA5cEF4ZXMwQlU9EmZaOkFEcXRBWnlMVnVGdDhWaVJuNXpCRHZOb2M0cTFsNnVXNEVZM3dyVEVXKzczT2FKWDNMMG1scTRMK1huNWdhMGx1QmJTMjIrR1BLZHYvSjdIcDdzY3BvTVZsc1dNQkZtbjRRPT0YACAAKAAw6fHOn9fogAM4wq287aAxQMKtvO2gMUocUm1PYzNrQVN6Z0NsWTVKY1RqMkZwQjZyTG9zPVofIh39K3BjYnFrUzZKUHFnL3E3MTViUkRpS2dxWlR3PWUAAAAAEuwBCAoS5wEKHFk2ZUJlZmQ5YkdSaG5naUlHanlyTEd5eWM1VT0SZlo6QURxdEFaeUxWdUZ0OFZpUm41ekJEdk5vYzRxMWtFZVZIalhJdFJSYStmZzlhaUZTcWxORlVLcVk5MThFUzFqeCs1WW9aNWU0dG5VQ0djdUU2LzBFVXBGTXlmUVdxN0pMZUE9PRgAIAIoAjDX44bnzuGCAzjCrbztoDFAsfGA3MAxShx2azZtZkwwQUw5RTZYejc5bjVRRDY2d1NQTkk9Wh8iHftUMVVvczB5SzQzK1VseGxHY2ptbVBhZFRvOFU9Zciaz6US6wEIBRLmAQocNUgxN1RnZjlleXNMZjVxV1RVWC8wbWRWU29nPRJmWjpBRHF0QVp5TFZ1RnQ4VmlSbjV6QkR2Tm9jNHExVjdFeEpEV3RUaytJakZpNStRUkUwN2cxZit5ckRVVDFNMkVZMVhueGJIMFJLdU9zbVJNU21ZUWZod042V1dXYU5ZQzBhdz09GAAgAigCMNfjhufO4YIDOMKtvO2gMUCw8YDcwDFKHFRUbURHRlh1cW1aSjFMbGRhY2lsS3krTWtEST1aHiIcd3FiL2E3K1J2dFhHeWRwbUJkMDZrY09qZGdJPWUmdlT3EuwBCAYS5wEKHHNpcCszUytRV0dhemswS3Zsb1lEa3lVT2daQT0SZlo6QURxdEFaeUxWdUZ0OFZpUm41ekJEdk5vYzRxMTZZdTQzZk1kTnZlYVBMaXJzSXpoM0pJZmxYZUx4QUs5N01rYjIyZDlUQnFlckRDRU9TWHZ0ekw3L1VGVSs3ZFpiWE5qZ0E9PRgAIAIoAjDX44bnzuGCAzjCrbztoDFAsPGA3MAxShxndC9pZDB0c2xxemd1Z0lwbmhwVjdkQTVtUFk9Wh8iHbtnOGNKRHV3K1YzdWYvbFVIeGR0bzhuNjY1Rkk9ZawxWQASwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp4dkZWL1JlZEIyc0dlYjhseHlYNWlFci9VN3FaeDNKOUZldExJa2VjdjRkQUo1eEd3NE1IMXE4cDF4eENzbEFtellwYnNCQzF3MG9PcWhkMHhSdUVDOXdmUklSdz09GAAgACgAMNq45uXO4YIDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS7AEICBLnAQocdFVJVGJzY0t1UWxQdmhudFo1VFpXdktlOGxzPRJmWjpBRHF0QVp5TFZ1RnQ4VmlSbjV6QkR2Tm9jNHExV29LZTFuZVc0ak1SOGRlMk5kVys0SEUvTHRTTTMxd0dLKzVHYUVSQnhhVnk2V1Z6V1dTOGc0YU1pNU1CQ2lUK2RqOExxdz09GAAgAigCMNfjhufO4YIDOMKtvO2gMUCx8YDcwDFKHGtWN09LdkRWM3NVRDM5WnNiMDFqbjI4bkgrdz1aHyId7mY2NlR5TkNxQ2hOTFFtM3JueWpnWnhySUM5Yz1laRsi8xLsAQgHEucBChxUVWRUVENFOFR5SG5pc1NqejhyekFHUGRkbkE9EmZaOkFEcXRBWnlMVnVGdDhWaVJuNXpCRHZOb2M0cTE2VlJrdVJUa0pyS2wxRXJPSkQ0b3RIVXZRRFFBNGN2NlVZU2pCdUhadEp1YjRhc2VFekNSYUJvK2RSMXU0RjMvZjE0SEx3PT0YACACKAIw1+OG587hggM4wq287aAxQLDxgNzAMUocc1h4MkxJRmJtbjB1ai9mOGRINGFJUzdwMzhnPVofIh3dSFBkWEt5YzczWVZHMUU0UEdUbDgxVHhzNURVPWXKKeeEMAE4AA==",
+   "version": 1
+}
