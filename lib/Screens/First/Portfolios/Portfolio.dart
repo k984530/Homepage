@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -17,8 +18,12 @@ class Portfolio extends StatelessWidget {
     required this.Expalin,
     required this.retrospect,
     required this.GitURL,
+    required this.InitImg,
+    required this.Range,
   });
 
+  int InitImg;
+  int Range;
   Color TitleColor;
   String Title01;
   String Title02;
@@ -54,43 +59,48 @@ class Portfolio extends StatelessWidget {
           Positioned(
             top: 100,
             right: w * 0.07,
-            height: h - 100,
+            height: h - 160,
             width: w * 0.32,
             child: Stack(
               alignment: Alignment.center,
               children: [
-                Transform(
-                  alignment: Alignment.center,
-                  transform: Matrix4.identity()
-                    ..rotateZ(
-                      pi * 15 / 180,
-                    ),
-                  child: Padding(
-                    padding: EdgeInsets.only(
-                      right: w * 0.005,
-                      bottom: w * 0.01,
-                    ),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(w * 0.023),
-                      child: Image.asset(
-                        'assets/projects/img1.png',
-                        width: w * 0.128,
-                        fit: BoxFit.fill,
-                      ),
-                    ),
+                CarouselSlider(
+                  options: CarouselOptions(
+                    height: h - 160,
+                    aspectRatio: 2 / 3,
+                    viewportFraction: 0.7,
+                    autoPlay: true,
+                    enlargeCenterPage: true,
+                    clipBehavior: Clip.antiAlias,
                   ),
-                ),
-                Transform(
-                  alignment: Alignment.center,
-                  transform: Matrix4.identity()
-                    ..rotateZ(
-                      pi * 15 / 180,
-                    ),
-                  child: Image.asset(
-                    'assets/phone.png',
-                    width: w * 0.42,
-                    fit: BoxFit.fitWidth,
-                  ),
+                  items:
+                      [for (int i = InitImg; i < InitImg + Range; i++) i].map(
+                    (i) {
+                      return Builder(
+                        builder: (context) {
+                          return Stack(
+                            alignment: Alignment.center,
+                            children: [
+                              ClipRRect(
+                                borderRadius: BorderRadius.circular(w * 0.018),
+                                child: Image.asset(
+                                  'assets/projects/img' + i.toString() + '.png',
+                                  width: w * 0.152,
+                                  fit: BoxFit.fill,
+                                ),
+                              ),
+                              Image.asset(
+                                'assets/phone.png',
+                                width: w * 0.17,
+                                fit: BoxFit.fill,
+                                color: TitleColor,
+                              ),
+                            ],
+                          );
+                        },
+                      );
+                    },
+                  ).toList(),
                 ),
               ],
             ),

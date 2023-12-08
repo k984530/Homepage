@@ -22,6 +22,7 @@ class HorizontalScroll extends StatelessWidget {
         child: SingleChildScrollView(
           controller: controller,
           scrollDirection: scrollDirection,
+          physics: PageScrollPhysics(),
           child: child,
         ),
       ),
