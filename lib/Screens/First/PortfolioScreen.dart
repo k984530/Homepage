@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutterweb/Screens/First/Portfolios/FirstPortfolio.dart';
+import 'package:flutterweb/Screens/First/Portfolios/Portfolio.dart';
 import 'package:get/state_manager.dart';
 
 import 'Components/HorizontalScroll.dart';
 import 'MainScreen.dart';
+import 'Portfolios/PortfolioData.dart';
 
 class PortfolioScreen extends StatefulWidget {
   PortfolioScreen({super.key, required ScrollController this.HorScroll});
@@ -27,11 +28,9 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
     });
   }
 
+  Color nav = Colors.black87;
   @override
   Widget build(BuildContext context) {
-    double h = MediaQuery.of(context).size.height;
-    double w = MediaQuery.of(context).size.width;
-    Color nav = Colors.white;
     return SizedBox(
       width: w,
       height: h,
@@ -43,18 +42,16 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
             scrollDirection: Axis.horizontal,
             child: Row(
               children: [
-                Portfolio001(),
-                for (int i = 0; i < 4; i++)
-                  Container(
-                    width: w,
-                    height: h,
-                    color: i % 2 == 0 ? Colors.blueGrey : Colors.amber,
-                  )
+                Portfolio01(),
+                Portfolio02(),
+                Portfolio03(),
+                Portfolio02(),
+                Portfolio03(),
               ],
             ),
           ),
           Positioned(
-            bottom: 30,
+            bottom: 45,
             child: Row(
               children: [
                 for (int i = 1; i <= 5; i++)

@@ -1,19 +1,21 @@
-2023/12/06-22:26:10.302 8407 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.oxMNG1/flutter_tools_chrome_device.xffA8a/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/06-22:26:10.302 8407 Recovering log #14
-2023/12/06-22:26:10.302 8407 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.oxMNG1/flutter_tools_chrome_device.xffA8a/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000014.log 
-2023/12/06-22:26:10.302 8407 Delete type=0 #7
-2023/12/06-22:26:10.302 8407 Delete type=0 #4
-2023/12/06-22:26:10.302 8407 Delete type=0 #10
-2023/12/06-22:26:10.302 8407 Delete type=0 #3
-2023/12/06-22:26:10.302 8407 Delete type=2 #12
-2023/12/06-22:26:10.302 8407 Delete type=2 #8
-2023/12/06-22:26:10.512 f103 Level-0 table #19: started
-2023/12/06-22:26:10.515 f103 Level-0 table #19: 541 bytes OK
-2023/12/06-22:26:10.521 f103 Delete type=0 #14
-2023/12/06-22:26:10.521 8407 Manual compaction at level-0 from '\x00\x09\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at '\x00\x09\x00\x00\x05' @ 518 : 1
-2023/12/06-22:26:10.521 8407 Compacting 1@0 + 1@1 files
-2023/12/06-22:26:10.524 8407 Generated table #20@0: 19 keys, 577 bytes
-2023/12/06-22:26:10.524 8407 Compacted 1@0 + 1@1 files => 577 bytes
-2023/12/06-22:26:10.530 8407 compacted to: files[ 0 1 1 0 0 0 0 ]
-2023/12/06-22:26:10.530 8407 Delete type=2 #19
-2023/12/06-22:26:10.531 8407 Manual compaction at level-0 from '\x00\x09\x00\x00\x05' @ 518 : 1 .. '\x00\x0a\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/12/08-15:11:52.878 8107 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.vNqldI/flutter_tools_chrome_device.cIQ6dJ/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/08-15:11:52.878 8107 Recovering log #18
+2023/12/08-15:11:52.878 8107 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.vNqldI/flutter_tools_chrome_device.cIQ6dJ/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/000018.log 
+2023/12/08-15:11:52.878 8107 Delete type=0 #7
+2023/12/08-15:11:52.878 8107 Delete type=0 #4
+2023/12/08-15:11:52.878 8107 Delete type=0 #10
+2023/12/08-15:11:52.878 8107 Delete type=0 #14
+2023/12/08-15:11:52.878 8107 Delete type=0 #3
+2023/12/08-15:11:52.878 8107 Delete type=2 #16
+2023/12/08-15:11:52.878 8107 Delete type=2 #12
+2023/12/08-15:11:52.878 8107 Delete type=2 #8
+2023/12/08-15:11:56.148 8107 Level-0 table #23: started
+2023/12/08-15:11:56.151 8107 Level-0 table #23: 540 bytes OK
+2023/12/08-15:11:56.163 8107 Delete type=0 #18
+2023/12/08-15:11:56.163 8107 Manual compaction at level-0 from '\x00\x0a\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at '\x00\x0a\x00\x00\x05' @ 537 : 1
+2023/12/08-15:11:56.163 8107 Compacting 1@0 + 1@1 files
+2023/12/08-15:11:56.167 8107 Generated table #24@0: 23 keys, 606 bytes
+2023/12/08-15:11:56.167 8107 Compacted 1@0 + 1@1 files => 606 bytes
+2023/12/08-15:11:56.173 8107 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/08-15:11:56.173 8107 Delete type=2 #23
+2023/12/08-15:11:56.173 8107 Manual compaction at level-0 from '\x00\x0a\x00\x00\x05' @ 537 : 1 .. '\x00\x0b\x00\x00\x00' @ 0 : 0; will stop at (end)

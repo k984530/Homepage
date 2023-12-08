@@ -1,3 +1,27 @@
-2023/12/06-14:34:26.245 a503 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.YwBH5o/flutter_tools_chrome_device.RbROfE/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/06-14:34:26.245 a503 Recovering log #59
-2023/12/06-14:34:26.245 a503 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.YwBH5o/flutter_tools_chrome_device.RbROfE/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000059.log 
+2023/12/06-22:50:25.325 8407 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.oxMNG1/flutter_tools_chrome_device.xffA8a/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/06-22:50:25.325 8407 Recovering log #59
+2023/12/06-22:50:25.334 8407 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.oxMNG1/flutter_tools_chrome_device.xffA8a/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000059.log 
+2023/12/06-22:50:25.335 8407 Delete type=0 #38
+2023/12/06-22:50:25.335 8407 Delete type=0 #3
+2023/12/06-22:50:25.335 8407 Delete type=2 #28
+2023/12/06-22:50:25.335 8407 Delete type=2 #20
+2023/12/06-22:50:25.335 8407 Delete type=2 #36
+2023/12/06-22:50:25.335 8407 Delete type=0 #53
+2023/12/06-22:50:25.335 8407 Delete type=2 #32
+2023/12/06-22:50:25.335 8407 Delete type=2 #24
+2023/12/06-22:50:25.335 8407 Delete type=0 #26
+2023/12/06-22:50:25.335 8407 Delete type=2 #40
+2023/12/06-22:50:25.335 8407 Delete type=2 #55
+2023/12/06-22:50:25.335 8407 Delete type=0 #18
+2023/12/06-22:50:25.335 8407 Delete type=0 #30
+2023/12/06-22:50:25.335 8407 Delete type=0 #34
+2023/12/06-22:50:25.335 8407 Delete type=0 #22
+2023/12/06-22:50:27.218 a103 Level-0 table #65: started
+2023/12/06-22:50:27.244 a103 Level-0 table #65: 1198085 bytes OK
+2023/12/06-22:50:27.249 a103 Delete type=0 #59
+2023/12/06-22:50:31.933 8407 Compacting 1@1 + 1@2 files
+2023/12/06-22:50:31.939 8407 Generated table #66@1: 369 keys, 49405 bytes
+2023/12/06-22:50:31.939 8407 Compacted 1@1 + 1@2 files => 49405 bytes
+2023/12/06-22:50:31.945 8407 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/06-22:50:31.945 8407 Delete type=2 #62
+2023/12/06-22:50:31.945 8407 Delete type=2 #65

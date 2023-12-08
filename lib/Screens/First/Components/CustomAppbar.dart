@@ -10,7 +10,7 @@ class CustomAppbar extends StatelessWidget {
     double h = MediaQuery.of(context).size.height;
     return Container(
       decoration: BoxDecoration(
-        color: Colors.white.withOpacity(0.2),
+        color: Colors.white.withOpacity(0.3),
         border: Border.all(
           color: Colors.white38,
         ),
