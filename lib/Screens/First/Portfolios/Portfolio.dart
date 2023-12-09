@@ -207,7 +207,7 @@ class Portfolio extends StatelessWidget {
                               ),
                             ),
                             SizedBox(
-                              height: WhiteSpace,
+                              height: WhiteSpace * 0.7,
                             ),
                             Image.asset(
                               'assets/git.png',
