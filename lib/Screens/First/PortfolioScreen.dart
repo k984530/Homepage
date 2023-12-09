@@ -45,8 +45,9 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                 Portfolio01(),
                 Portfolio02(),
                 Portfolio03(),
-                Portfolio02(),
-                Portfolio03(),
+                Portfolio04(),
+                Portfolio05(),
+                Portfolio06(),
               ],
             ),
           ),
@@ -54,7 +55,7 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
             bottom: 45,
             child: Row(
               children: [
-                for (int i = 1; i <= 5; i++)
+                for (int i = 1; i <= 6; i++)
                   InkWell(
                     onTap: () {
                       widget.HorScroll.animateTo(
