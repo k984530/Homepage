@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../MainScreen.dart';
 
@@ -206,83 +207,132 @@ class Portfolio extends StatelessWidget {
                                 ],
                               ),
                             ),
+                            if (w < 600) ...[
+                              SizedBox(
+                                height: 20,
+                              ),
+                              CarouselSlider(
+                                options: CarouselOptions(
+                                  height: h * 0.5,
+                                  aspectRatio: 3 / 2,
+                                  viewportFraction: 0.5,
+                                  autoPlay: true,
+                                  enlargeCenterPage: true,
+                                  clipBehavior: Clip.antiAlias,
+                                ),
+                                items: [
+                                  for (int i = InitImg;
+                                      i < InitImg + Range;
+                                      i++)
+                                    i
+                                ].map(
+                                  (i) {
+                                    return Builder(
+                                      builder: (context) {
+                                        return Stack(
+                                          alignment: Alignment.center,
+                                          children: [
+                                            ClipRRect(
+                                              borderRadius:
+                                                  BorderRadius.circular(
+                                                      h * 0.018),
+                                              child: Image.asset(
+                                                'assets/projects/img' +
+                                                    i.toString() +
+                                                    '.png',
+                                                width: h * 0.16,
+                                                fit: BoxFit.fill,
+                                              ),
+                                            ),
+                                            Image.asset(
+                                              'assets/phone.png',
+                                              width: h * 0.18,
+                                              fit: BoxFit.fill,
+                                              color:
+                                                  TitleColor.withOpacity(0.8),
+                                            ),
+                                          ],
+                                        );
+                                      },
+                                    );
+                                  },
+                                ).toList(),
+                              ),
+                            ],
                             SizedBox(
                               height: WhiteSpace * 0.7,
                             ),
-                            Image.asset(
-                              'assets/git.png',
-                              width: 50,
-                            ),
-                            // Spacer(
-                            //   flex: 2,
-                            // ),
+                            if (GitURL != 'None')
+                              InkWell(
+                                onTap: () async {
+                                  launchUrl(
+                                    Uri.parse(GitURL),
+                                  );
+                                },
+                                child: Image.asset(
+                                  'assets/git.png',
+                                  width: 50,
+                                ),
+                              ),
+                            if (w < 600)
+                              SizedBox(
+                                height: WhiteSpace * 0.7,
+                              ),
                           ],
                         ),
                       ),
                     ),
                   ),
-                  Expanded(
-                    flex: 2,
-                    child: CarouselSlider(
-                      options: CarouselOptions(
-                        height: h - 160,
-                        aspectRatio: 2 / 3,
-                        viewportFraction: 0.7,
-                        autoPlay: true,
-                        enlargeCenterPage: true,
-                        clipBehavior: Clip.antiAlias,
-                      ),
-                      items: [for (int i = InitImg; i < InitImg + Range; i++) i]
-                          .map(
-                        (i) {
-                          return Builder(
-                            builder: (context) {
-                              return Stack(
-                                alignment: Alignment.center,
-                                children: [
-                                  ClipRRect(
-                                    borderRadius:
-                                        BorderRadius.circular(w * 0.018),
-                                    child: Image.asset(
-                                      'assets/projects/img' +
-                                          i.toString() +
-                                          '.png',
-                                      width: w * 0.152,
-                                      fit: BoxFit.fill,
+                  if (w >= 600)
+                    Expanded(
+                      flex: 2,
+                      child: CarouselSlider(
+                        options: CarouselOptions(
+                          height: h - 160,
+                          aspectRatio: 2 / 3,
+                          viewportFraction: 0.6,
+                          autoPlay: true,
+                          enlargeCenterPage: true,
+                          clipBehavior: Clip.antiAlias,
+                        ),
+                        items: [
+                          for (int i = InitImg; i < InitImg + Range; i++) i
+                        ].map(
+                          (i) {
+                            return Builder(
+                              builder: (context) {
+                                return Stack(
+                                  alignment: Alignment.center,
+                                  children: [
+                                    ClipRRect(
+                                      borderRadius:
+                                          BorderRadius.circular(w * 0.018),
+                                      child: Image.asset(
+                                        'assets/projects/img' +
+                                            i.toString() +
+                                            '.png',
+                                        width: w * 0.152,
+                                        fit: BoxFit.fill,
+                                      ),
                                     ),
-                                  ),
-                                  Image.asset(
-                                    'assets/phone.png',
-                                    width: w * 0.17,
-                                    fit: BoxFit.fill,
-                                    color: TitleColor.withOpacity(0.8),
-                                  ),
-                                ],
-                              );
-                            },
-                          );
-                        },
-                      ).toList(),
+                                    Image.asset(
+                                      'assets/phone.png',
+                                      width: w * 0.17,
+                                      fit: BoxFit.fill,
+                                      color: TitleColor.withOpacity(0.8),
+                                    ),
+                                  ],
+                                );
+                              },
+                            );
+                          },
+                        ).toList(),
+                      ),
                     ),
-                  ),
                 ],
               ),
             ),
           ),
-          // Positioned(
-          //   top: 100,
-          //   right: w * 0.07,
-          //   height: h - 160,
-          //   width: w * 0.32,
-          //   child:
-          // ),
-          // Positioned(
-          //   top: h * 0.1,
-          //   right: w * 0.4,
-          //   height: h * 0.9,
-          //   width: w * 0.6,
-          //   child:
-          // ),
         ],
       ),
     );

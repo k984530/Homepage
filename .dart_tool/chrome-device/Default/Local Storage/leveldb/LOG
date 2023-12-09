@@ -1,110 +1,30 @@
-2023/12/09-13:02:47.685 2a07 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.0ChuAD/flutter_tools_chrome_device.L8ulOx/Default/Local Storage/leveldb/MANIFEST-000001
-2023/12/09-13:02:47.687 2a07 Recovering log #422
-2023/12/09-13:02:47.687 2a07 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.0ChuAD/flutter_tools_chrome_device.L8ulOx/Default/Local Storage/leveldb/000422.log 
-2023/12/09-13:02:47.688 2a07 Delete type=2 #314
-2023/12/09-13:02:47.688 2a07 Delete type=2 #117
-2023/12/09-13:02:47.688 2a07 Delete type=0 #172
-2023/12/09-13:02:47.688 2a07 Delete type=2 #301
-2023/12/09-13:02:47.689 2a07 Delete type=2 #317
-2023/12/09-13:02:47.689 2a07 Delete type=2 #129
-2023/12/09-13:02:47.689 2a07 Delete type=2 #115
-2023/12/09-13:02:47.689 2a07 Delete type=2 #75
-2023/12/09-13:02:47.689 2a07 Delete type=2 #60
-2023/12/09-13:02:47.689 2a07 Delete type=0 #165
-2023/12/09-13:02:47.689 2a07 Delete type=0 #367
-2023/12/09-13:02:47.689 2a07 Delete type=2 #312
-2023/12/09-13:02:47.689 2a07 Delete type=0 #411
-2023/12/09-13:02:47.689 2a07 Delete type=2 #138
-2023/12/09-13:02:47.689 2a07 Delete type=0 #161
-2023/12/09-13:02:47.689 2a07 Delete type=2 #64
-2023/12/09-13:02:47.689 2a07 Delete type=2 #298
-2023/12/09-13:02:47.689 2a07 Delete type=2 #113
-2023/12/09-13:02:47.689 2a07 Delete type=0 #176
-2023/12/09-13:02:47.689 2a07 Delete type=2 #67
-2023/12/09-13:02:47.689 2a07 Delete type=2 #271
-2023/12/09-13:02:47.689 2a07 Delete type=0 #3
-2023/12/09-13:02:47.689 2a07 Delete type=2 #405
-2023/12/09-13:02:47.689 2a07 Delete type=0 #267
-2023/12/09-13:02:47.689 2a07 Delete type=0 #59
-2023/12/09-13:02:47.689 2a07 Delete type=2 #174
-2023/12/09-13:02:47.689 2a07 Delete type=0 #139
-2023/12/09-13:02:47.689 2a07 Delete type=2 #410
-2023/12/09-13:02:47.689 2a07 Delete type=0 #313
-2023/12/09-13:02:47.689 2a07 Delete type=0 #307
-2023/12/09-13:02:47.689 2a07 Delete type=2 #412
-2023/12/09-13:02:47.689 2a07 Delete type=2 #406
-2023/12/09-13:02:47.689 2a07 Delete type=0 #73
-2023/12/09-13:02:47.689 2a07 Delete type=0 #270
-2023/12/09-13:02:47.689 2a07 Delete type=0 #66
-2023/12/09-13:02:47.689 2a07 Delete type=2 #163
-2023/12/09-13:02:47.689 2a07 Delete type=2 #177
-2023/12/09-13:02:47.689 2a07 Delete type=2 #361
-2023/12/09-13:02:47.689 2a07 Delete type=0 #300
-2023/12/09-13:02:47.689 2a07 Delete type=0 #116
-2023/12/09-13:02:47.689 2a07 Delete type=0 #62
-2023/12/09-13:02:47.689 2a07 Delete type=2 #166
-2023/12/09-13:02:47.689 2a07 Delete type=2 #364
-2023/12/09-13:02:47.689 2a07 Delete type=2 #366
-2023/12/09-13:02:47.689 2a07 Delete type=0 #128
-2023/12/09-13:02:47.689 2a07 Delete type=0 #316
-2023/12/09-13:02:47.689 2a07 Delete type=2 #395
-2023/12/09-13:02:47.689 2a07 Delete type=2 #342
-2023/12/09-13:02:47.689 2a07 Delete type=2 #183
-2023/12/09-13:02:47.689 2a07 Delete type=0 #131
-2023/12/09-13:02:47.689 2a07 Delete type=2 #140
-2023/12/09-13:02:47.689 2a07 Delete type=0 #284
-2023/12/09-13:02:47.689 2a07 Delete type=2 #155
-2023/12/09-13:02:47.689 2a07 Delete type=2 #357
-2023/12/09-13:02:47.689 2a07 Delete type=2 #394
-2023/12/09-13:02:47.689 2a07 Delete type=2 #382
-2023/12/09-13:02:47.689 2a07 Delete type=0 #324
-2023/12/09-13:02:47.689 2a07 Delete type=2 #180
-2023/12/09-13:02:47.689 2a07 Delete type=2 #157
-2023/12/09-13:02:47.689 2a07 Delete type=0 #46
-2023/12/09-13:02:47.689 2a07 Delete type=2 #340
-2023/12/09-13:02:47.689 2a07 Delete type=2 #354
-2023/12/09-13:02:47.689 2a07 Delete type=2 #368
-2023/12/09-13:02:47.689 2a07 Delete type=2 #383
-2023/12/09-13:02:47.689 2a07 Delete type=2 #397
-2023/12/09-13:02:47.689 2a07 Delete type=2 #350
-2023/12/09-13:02:47.689 2a07 Delete type=2 #344
-2023/12/09-13:02:47.689 2a07 Delete type=0 #296
-2023/12/09-13:02:47.689 2a07 Delete type=0 #56
-2023/12/09-13:02:47.689 2a07 Delete type=2 #153
-2023/12/09-13:02:47.689 2a07 Delete type=2 #386
-2023/12/09-13:02:47.689 2a07 Delete type=0 #83
-2023/12/09-13:02:47.689 2a07 Delete type=2 #187
-2023/12/09-13:02:47.689 2a07 Delete type=2 #408
-2023/12/09-13:02:47.689 2a07 Delete type=2 #352
-2023/12/09-13:02:47.689 2a07 Delete type=2 #346
-2023/12/09-13:02:47.689 2a07 Delete type=2 #309
-2023/12/09-13:02:47.689 2a07 Delete type=2 #321
-2023/12/09-13:02:47.690 2a07 Delete type=0 #185
-2023/12/09-13:02:47.690 2a07 Delete type=2 #123
-2023/12/09-13:02:47.690 2a07 Delete type=2 #57
-2023/12/09-13:02:47.690 2a07 Delete type=2 #43
-2023/12/09-13:02:47.690 2a07 Delete type=2 #269
-2023/12/09-13:02:47.690 2a07 Delete type=2 #283
-2023/12/09-13:02:47.690 2a07 Delete type=2 #136
-2023/12/09-13:02:47.690 2a07 Delete type=0 #345
-2023/12/09-13:02:47.690 2a07 Delete type=0 #353
-2023/12/09-13:02:47.690 2a07 Delete type=0 #179
-2023/12/09-13:02:47.690 2a07 Delete type=2 #281
-2023/12/09-13:02:47.690 2a07 Delete type=2 #55
-2023/12/09-13:02:47.690 2a07 Delete type=2 #323
-2023/12/09-13:02:47.690 2a07 Delete type=0 #385
-2023/12/09-13:02:47.690 2a07 Delete type=0 #356
-2023/12/09-13:02:47.690 2a07 Delete type=2 #125
-2023/12/09-13:02:47.690 2a07 Delete type=2 #45
-2023/12/09-13:02:47.690 2a07 Delete type=2 #285
-2023/12/09-13:02:47.690 2a07 Delete type=0 #182
-2023/12/09-13:02:47.690 2a07 Delete type=0 #380
-2023/12/09-13:02:47.690 2a07 Delete type=0 #396
-2023/12/09-13:02:47.690 2a07 Delete type=2 #85
-2023/12/09-13:02:47.690 2a07 Delete type=2 #279
-2023/12/09-13:02:47.690 2a07 Delete type=2 #47
-2023/12/09-13:02:47.690 2a07 Delete type=2 #53
-2023/12/09-13:02:47.690 2a07 Delete type=0 #156
-2023/12/09-13:02:47.690 2a07 Delete type=2 #133
-2023/12/09-13:02:47.690 2a07 Delete type=2 #127
-2023/12/09-13:02:47.690 2a07 Delete type=2 #325
+2023/12/09-17:53:48.863 2e03 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/Local Storage/leveldb/MANIFEST-000001
+2023/12/09-17:53:48.866 2e03 Recovering log #3
+2023/12/09-17:53:48.867 2e03 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/Local Storage/leveldb/000003.log 
+2023/12/09-18:01:18.698 3a03 Level-0 table #5: started
+2023/12/09-18:01:18.703 3a03 Level-0 table #5: 39122 bytes OK
+2023/12/09-18:01:18.723 3a03 Delete type=0 #3
+2023/12/09-20:16:19.431 3a03 Level-0 table #7: started
+2023/12/09-20:16:19.437 3a03 Level-0 table #7: 26222 bytes OK
+2023/12/09-20:16:19.444 3a03 Delete type=0 #4
+2023/12/09-20:20:29.503 3a03 Level-0 table #9: started
+2023/12/09-20:20:29.508 3a03 Level-0 table #9: 38742 bytes OK
+2023/12/09-20:20:29.517 3a03 Delete type=0 #6
+2023/12/09-20:22:48.044 3a03 Level-0 table #11: started
+2023/12/09-20:22:48.048 3a03 Level-0 table #11: 42006 bytes OK
+2023/12/09-20:22:48.054 3a03 Delete type=0 #8
+2023/12/09-20:25:40.377 3a03 Level-0 table #13: started
+2023/12/09-20:25:40.382 3a03 Level-0 table #13: 48263 bytes OK
+2023/12/09-20:25:40.390 3a03 Delete type=0 #10
+2023/12/09-20:30:19.861 3a03 Level-0 table #15: started
+2023/12/09-20:30:19.866 3a03 Level-0 table #15: 40271 bytes OK
+2023/12/09-20:30:19.871 3a03 Delete type=0 #12
+2023/12/09-20:30:19.871 3a03 Compacting 4@0 + 1@1 files
+2023/12/09-20:30:19.874 3a03 Generated table #16@0: 112 keys, 14337 bytes
+2023/12/09-20:30:19.874 3a03 Compacted 4@0 + 1@1 files => 14337 bytes
+2023/12/09-20:30:19.879 3a03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/09-20:30:19.880 3a03 Delete type=2 #15
+2023/12/09-20:30:19.880 3a03 Delete type=2 #7
+2023/12/09-20:30:19.880 3a03 Delete type=2 #13
+2023/12/09-20:30:19.880 3a03 Delete type=2 #11
+2023/12/09-20:30:19.880 3a03 Delete type=2 #9

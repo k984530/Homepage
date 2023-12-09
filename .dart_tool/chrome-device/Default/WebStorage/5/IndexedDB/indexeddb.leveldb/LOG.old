@@ -1,3 +1,7 @@
-2023/12/08-18:43:31.888 8703 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.Pl2Opv/flutter_tools_chrome_device.bBe4As/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
-2023/12/08-18:43:31.888 8703 Recovering log #11
-2023/12/08-18:43:31.890 8703 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.Pl2Opv/flutter_tools_chrome_device.bBe4As/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/000011.log 
+2023/12/09-12:29:25.467 f703 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.1gXt7x/flutter_tools_chrome_device.xSvzhR/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/MANIFEST-000001
+2023/12/09-12:29:25.468 f703 Recovering log #11
+2023/12/09-12:29:25.470 f703 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.1gXt7x/flutter_tools_chrome_device.xSvzhR/Default/WebStorage/5/IndexedDB/indexeddb.leveldb/000011.log 
+2023/12/09-12:29:25.470 f703 Delete type=0 #7
+2023/12/09-12:29:25.470 f703 Delete type=0 #4
+2023/12/09-12:29:25.470 f703 Delete type=2 #5
+2023/12/09-12:29:25.470 f703 Delete type=2 #9

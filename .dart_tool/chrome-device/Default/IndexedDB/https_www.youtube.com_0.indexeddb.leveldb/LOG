@@ -1,20 +1,2 @@
-2023/12/08-14:55:14.577 8107 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.vNqldI/flutter_tools_chrome_device.cIQ6dJ/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/12/08-14:55:14.577 8107 Recovering log #64
-2023/12/08-14:55:14.578 8107 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.vNqldI/flutter_tools_chrome_device.cIQ6dJ/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000064.log 
-2023/12/08-14:55:14.578 8107 Delete type=2 #62
-2023/12/08-14:55:14.578 8107 Delete type=0 #38
-2023/12/08-14:55:14.578 8107 Delete type=0 #3
-2023/12/08-14:55:14.578 8107 Delete type=0 #59
-2023/12/08-14:55:14.578 8107 Delete type=2 #28
-2023/12/08-14:55:14.579 8107 Delete type=2 #20
-2023/12/08-14:55:14.579 8107 Delete type=2 #36
-2023/12/08-14:55:14.579 8107 Delete type=0 #53
-2023/12/08-14:55:14.579 8107 Delete type=2 #32
-2023/12/08-14:55:14.579 8107 Delete type=2 #24
-2023/12/08-14:55:14.579 8107 Delete type=0 #26
-2023/12/08-14:55:14.579 8107 Delete type=2 #40
-2023/12/08-14:55:14.579 8107 Delete type=2 #55
-2023/12/08-14:55:14.579 8107 Delete type=0 #18
-2023/12/08-14:55:14.579 8107 Delete type=0 #30
-2023/12/08-14:55:14.579 8107 Delete type=0 #34
-2023/12/08-14:55:14.579 8107 Delete type=0 #22
+2023/12/09-17:54:25.404 8207 Creating DB /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
+2023/12/09-17:54:25.418 8207 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
