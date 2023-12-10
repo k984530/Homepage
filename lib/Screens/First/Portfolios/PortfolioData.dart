@@ -1,8 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutterweb/Screens/First/Portfolios/Portfolio.dart';
 
+List<Color> TitleColors = [
+  Colors.blue,
+  Colors.green,
+  Colors.amber.shade700,
+  Colors.purple.shade700,
+  Colors.black,
+  Colors.blue.shade700,
+];
+
 Portfolio01() => Portfolio(
-      TitleColor: Colors.blue,
+      TitleColor: TitleColors[0],
       Title01: 'Fishermap',
       Title02: ' - 귀어들을 위한 모바일 앱 서비스',
       UseTool: 'Dart(Flutter), Python(Flask), Git',
@@ -18,7 +27,7 @@ Portfolio01() => Portfolio(
     );
 
 Portfolio02() => Portfolio(
-      TitleColor: Colors.green,
+      TitleColor: TitleColors[1],
       Title01: '우리의 정원',
       Title02: ' - 플랜테리어를 위한 모바일 앱 서비스',
       UseTool: 'Dart(Flutter), Python(Flask), Git',
@@ -34,7 +43,7 @@ Portfolio02() => Portfolio(
     );
 
 Portfolio03() => Portfolio(
-      TitleColor: Colors.amber.shade700,
+      TitleColor: TitleColors[2],
       Title01: 'PoppinCat',
       Title02: ' - 댄서를 위한 모바일 앱 서비스',
       UseTool: 'Dart(Flutter), GitLab',
@@ -49,7 +58,7 @@ Portfolio03() => Portfolio(
       Range: 4,
     );
 Portfolio04() => Portfolio(
-      TitleColor: Colors.purple.shade700,
+      TitleColor: TitleColors[3],
       Title01: 'CryptoTrend',
       Title02: ' - 암호화폐 시세 변동 알림 모바일 앱 서비스',
       UseTool: 'Dart(Flutter), Python(Django), Firebase, Git',
@@ -64,7 +73,7 @@ Portfolio04() => Portfolio(
       Range: 3,
     );
 Portfolio05() => Portfolio(
-      TitleColor: Colors.black,
+      TitleColor: TitleColors[4],
       Title01: 'Someone',
       Title02: ' - 연락처 기반 익명 칭찬 앱 서비스',
       UseTool: 'Dart(Flutter), Python(Django), Firebase, Git',
@@ -80,7 +89,7 @@ Portfolio05() => Portfolio(
     );
 
 Portfolio06() => Portfolio(
-      TitleColor: Colors.blue.shade700,
+      TitleColor: TitleColors[5],
       Title01: 'Node',
       Title02: ' - 아이디어 공유 및 팀 빌딩 앱 서비스',
       UseTool: 'Dart(Flutter), Git',

@@ -1,2 +1,199 @@
-2023/12/09-17:53:48.419 2e03 Creating DB /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/Session Storage__tmp_for_rebuild since it was missing.
-2023/12/09-17:53:48.452 2e03 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/Session Storage__tmp_for_rebuild/MANIFEST-000001
+2023/12/09-20:39:19.824 2f03 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.RNAZza/flutter_tools_chrome_device.WqjqyF/Default/Session Storage/MANIFEST-000001
+2023/12/09-20:39:19.835 2f03 Recovering log #8
+2023/12/09-20:39:19.835 2f03 Level-0 table #11: started
+2023/12/09-20:39:19.842 2f03 Level-0 table #11: 3041 bytes OK
+2023/12/09-20:39:19.842 2f03 Recovering log #19
+2023/12/09-20:39:19.842 2f03 Level-0 table #12: started
+2023/12/09-20:39:19.849 2f03 Level-0 table #12: 15063 bytes OK
+2023/12/09-20:39:19.849 2f03 Recovering log #31
+2023/12/09-20:39:19.849 2f03 Level-0 table #20: started
+2023/12/09-20:39:19.852 2f03 Level-0 table #20: 51947 bytes OK
+2023/12/09-20:39:19.852 2f03 Recovering log #35
+2023/12/09-20:39:19.853 2f03 Level-0 table #32: started
+2023/12/09-20:39:19.859 2f03 Level-0 table #32: 94284 bytes OK
+2023/12/09-20:39:19.860 2f03 Recovering log #44
+2023/12/09-20:39:19.860 2f03 Level-0 table #36: started
+2023/12/09-20:39:19.864 2f03 Level-0 table #36: 7099 bytes OK
+2023/12/09-20:39:19.865 2f03 Recovering log #48
+2023/12/09-20:39:19.865 2f03 Level-0 table #45: started
+2023/12/09-20:39:19.871 2f03 Level-0 table #45: 3458 bytes OK
+2023/12/09-20:39:19.871 2f03 Recovering log #53
+2023/12/09-20:39:19.871 2f03 Level-0 table #49: started
+2023/12/09-20:39:19.877 2f03 Level-0 table #49: 7151 bytes OK
+2023/12/09-20:39:19.878 2f03 Recovering log #86
+2023/12/09-20:39:19.878 2f03 Level-0 table #54: started
+2023/12/09-20:39:19.883 2f03 Level-0 table #54: 19066 bytes OK
+2023/12/09-20:39:19.884 2f03 Recovering log #89
+2023/12/09-20:39:19.884 2f03 Level-0 table #87: started
+2023/12/09-20:39:19.892 2f03 Level-0 table #87: 2215 bytes OK
+2023/12/09-20:39:19.892 2f03 Recovering log #97
+2023/12/09-20:39:19.892 2f03 Level-0 table #90: started
+2023/12/09-20:39:19.898 2f03 Level-0 table #90: 8894 bytes OK
+2023/12/09-20:39:19.898 2f03 Recovering log #102
+2023/12/09-20:39:19.899 2f03 Level-0 table #98: started
+2023/12/09-20:39:19.903 2f03 Level-0 table #98: 19782 bytes OK
+2023/12/09-20:39:19.904 2f03 Recovering log #112
+2023/12/09-20:39:19.904 2f03 Level-0 table #103: started
+2023/12/09-20:39:19.910 2f03 Level-0 table #103: 7032 bytes OK
+2023/12/09-20:39:19.910 2f03 Recovering log #115
+2023/12/09-20:39:19.910 2f03 Level-0 table #113: started
+2023/12/09-20:39:19.916 2f03 Level-0 table #113: 3510 bytes OK
+2023/12/09-20:39:19.917 2f03 Recovering log #119
+2023/12/09-20:39:19.917 2f03 Level-0 table #116: started
+2023/12/09-20:39:19.921 2f03 Level-0 table #116: 7727 bytes OK
+2023/12/09-20:39:19.922 2f03 Recovering log #122
+2023/12/09-20:39:19.923 2f03 Level-0 table #120: started
+2023/12/09-20:39:19.928 2f03 Level-0 table #120: 1874 bytes OK
+2023/12/09-20:39:19.929 2f03 Recovering log #127
+2023/12/09-20:39:19.929 2f03 Level-0 table #123: started
+2023/12/09-20:39:19.933 2f03 Level-0 table #123: 654 bytes OK
+2023/12/09-20:39:19.933 2f03 Recovering log #133
+2023/12/09-20:39:19.933 2f03 Level-0 table #128: started
+2023/12/09-20:39:19.938 2f03 Level-0 table #128: 18665 bytes OK
+2023/12/09-20:39:19.939 2f03 Recovering log #145
+2023/12/09-20:39:19.939 2f03 Level-0 table #134: started
+2023/12/09-20:39:19.944 2f03 Level-0 table #134: 10469 bytes OK
+2023/12/09-20:39:19.945 2f03 Recovering log #171
+2023/12/09-20:39:19.945 2f03 Level-0 table #146: started
+2023/12/09-20:39:19.950 2f03 Level-0 table #146: 5794 bytes OK
+2023/12/09-20:39:19.951 2f03 Recovering log #183
+2023/12/09-20:39:19.951 2f03 Level-0 table #172: started
+2023/12/09-20:39:19.956 2f03 Level-0 table #172: 7274 bytes OK
+2023/12/09-20:39:19.957 2f03 Recovering log #193
+2023/12/09-20:39:19.957 2f03 Level-0 table #184: started
+2023/12/09-20:39:19.963 2f03 Level-0 table #184: 402 bytes OK
+2023/12/09-20:39:19.966 2f03 Recovering log #196
+2023/12/09-20:39:19.970 2f03 Level-0 table #194: started
+2023/12/09-20:39:19.977 2f03 Level-0 table #194: 16633 bytes OK
+2023/12/09-20:39:19.978 2f03 Recovering log #204
+2023/12/09-20:39:19.978 2f03 Level-0 table #197: started
+2023/12/09-20:39:19.988 2f03 Level-0 table #197: 10277 bytes OK
+2023/12/09-20:39:19.989 2f03 Recovering log #222
+2023/12/09-20:39:19.989 2f03 Level-0 table #205: started
+2023/12/09-20:39:19.994 2f03 Level-0 table #205: 1281 bytes OK
+2023/12/09-20:39:19.995 2f03 Recovering log #225
+2023/12/09-20:39:19.995 2f03 Level-0 table #223: started
+2023/12/09-20:39:19.999 2f03 Level-0 table #223: 8524 bytes OK
+2023/12/09-20:39:19.999 2f03 Recovering log #228
+2023/12/09-20:39:19.999 2f03 Level-0 table #226: started
+2023/12/09-20:39:20.003 2f03 Level-0 table #226: 1281 bytes OK
+2023/12/09-20:39:20.003 2f03 Recovering log #234
+2023/12/09-20:39:20.003 2f03 Level-0 table #229: started
+2023/12/09-20:39:20.007 2f03 Level-0 table #229: 978 bytes OK
+2023/12/09-20:39:20.008 2f03 Recovering log #248
+2023/12/09-20:39:20.008 2f03 Level-0 table #235: started
+2023/12/09-20:39:20.011 2f03 Level-0 table #235: 1838 bytes OK
+2023/12/09-20:39:20.011 2f03 Recovering log #254
+2023/12/09-20:39:20.011 2f03 Level-0 table #249: started
+2023/12/09-20:39:20.014 2f03 Level-0 table #249: 13448 bytes OK
+2023/12/09-20:39:20.014 2f03 Recovering log #264
+2023/12/09-20:39:20.015 2f03 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.RNAZza/flutter_tools_chrome_device.WqjqyF/Default/Session Storage/000264.log 
+2023/12/09-20:39:20.022 2f03 Delete type=2 #261
+2023/12/09-20:39:20.022 2f03 Delete type=0 #204
+2023/12/09-20:39:20.022 2f03 Delete type=2 #117
+2023/12/09-20:39:20.022 2f03 Delete type=2 #129
+2023/12/09-20:39:20.022 2f03 Delete type=2 #101
+2023/12/09-20:39:20.022 2f03 Delete type=2 #263
+2023/12/09-20:39:20.022 2f03 Delete type=0 #171
+2023/12/09-20:39:20.022 2f03 Delete type=2 #111
+2023/12/09-20:39:20.022 2f03 Delete type=2 #107
+2023/12/09-20:39:20.022 2f03 Delete type=0 #228
+2023/12/09-20:39:20.022 2f03 Delete type=2 #265
+2023/12/09-20:39:20.022 2f03 Delete type=0 #3
+2023/12/09-20:39:20.022 2f03 Delete type=2 #203
+2023/12/09-20:39:20.022 2f03 Delete type=2 #28
+2023/12/09-20:39:20.022 2f03 Delete type=2 #16
+2023/12/09-20:39:20.022 2f03 Delete type=2 #201
+2023/12/09-20:39:20.022 2f03 Delete type=0 #112
+2023/12/09-20:39:20.022 2f03 Delete type=2 #188
+2023/12/09-20:39:20.022 2f03 Delete type=2 #198
+2023/12/09-20:39:20.022 2f03 Delete type=0 #102
+2023/12/09-20:39:20.022 2f03 Delete type=0 #89
+2023/12/09-20:39:20.022 2f03 Delete type=0 #248
+2023/12/09-20:39:20.022 2f03 Delete type=2 #170
+2023/12/09-20:39:20.022 2f03 Delete type=0 #115
+2023/12/09-20:39:20.022 2f03 Delete type=0 #48
+2023/12/09-20:39:20.022 2f03 Delete type=2 #168
+2023/12/09-20:39:20.022 2f03 Delete type=0 #119
+2023/12/09-20:39:20.022 2f03 Delete type=2 #140
+2023/12/09-20:39:20.022 2f03 Delete type=0 #86
+2023/12/09-20:39:20.022 2f03 Delete type=0 #44
+2023/12/09-20:39:20.022 2f03 Delete type=2 #182
+2023/12/09-20:39:20.022 2f03 Delete type=2 #180
+2023/12/09-20:39:20.022 2f03 Delete type=2 #221
+2023/12/09-20:39:20.022 2f03 Delete type=0 #53
+2023/12/09-20:39:20.022 2f03 Delete type=2 #142
+2023/12/09-20:39:20.022 2f03 Delete type=0 #127
+2023/12/09-20:39:20.022 2f03 Delete type=0 #133
+2023/12/09-20:39:20.022 2f03 Delete type=2 #26
+2023/12/09-20:39:20.022 2f03 Delete type=2 #230
+2023/12/09-20:39:20.022 2f03 Delete type=2 #218
+2023/12/09-20:39:20.022 2f03 Delete type=0 #254
+2023/12/09-20:39:20.022 2f03 Delete type=2 #219
+2023/12/09-20:39:20.022 2f03 Delete type=0 #122
+2023/12/09-20:39:20.023 2f03 Delete type=2 #190
+2023/12/09-20:39:20.023 2f03 Delete type=2 #192
+2023/12/09-20:39:20.023 2f03 Delete type=0 #97
+2023/12/09-20:39:20.023 2f03 Delete type=2 #233
+2023/12/09-20:39:20.023 2f03 Delete type=2 #18
+2023/12/09-20:39:20.023 2f03 Delete type=2 #30
+2023/12/09-20:39:20.023 2f03 Delete type=2 #178
+2023/12/09-20:39:20.023 2f03 Delete type=2 #144
+2023/12/09-20:39:20.023 2f03 Delete type=2 #255
+2023/12/09-20:39:20.023 2f03 Delete type=0 #225
+2023/12/09-20:39:20.023 2f03 Delete type=0 #145
+2023/12/09-20:39:20.023 2f03 Delete type=0 #31
+2023/12/09-20:39:20.023 2f03 Delete type=0 #19
+2023/12/09-20:39:20.023 2f03 Delete type=2 #96
+2023/12/09-20:39:20.023 2f03 Delete type=2 #109
+2023/12/09-20:39:20.023 2f03 Delete type=0 #193
+2023/12/09-20:39:20.023 2f03 Delete type=0 #183
+2023/12/09-20:39:20.023 2f03 Delete type=0 #8
+2023/12/09-20:39:20.023 2f03 Delete type=2 #253
+2023/12/09-20:39:20.023 2f03 Delete type=0 #222
+2023/12/09-20:39:20.023 2f03 Delete type=0 #35
+2023/12/09-20:39:20.023 2f03 Delete type=0 #196
+2023/12/09-20:39:20.023 2f03 Delete type=2 #132
+2023/12/09-20:39:20.023 2f03 Delete type=2 #85
+2023/12/09-20:39:20.023 2f03 Delete type=2 #52
+2023/12/09-20:39:20.023 2f03 Delete type=2 #46
+2023/12/09-20:39:20.023 2f03 Delete type=2 #250
+2023/12/09-20:39:20.023 2f03 Delete type=0 #234
+2023/12/09-20:39:20.036 3d03 Compacting 30@0 + 1@1 files
+2023/12/09-20:39:20.054 3d03 Generated table #265@0: 2745 keys, 281226 bytes
+2023/12/09-20:39:20.054 3d03 Compacted 30@0 + 1@1 files => 281226 bytes
+2023/12/09-20:39:20.059 3d03 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/12/09-20:39:20.070 3d03 Level-0 table #267: started
+2023/12/09-20:39:20.075 3d03 Level-0 table #267: 17553 bytes OK
+2023/12/09-20:39:20.081 3d03 Delete type=2 #116
+2023/12/09-20:39:20.081 3d03 Delete type=2 #249
+2023/12/09-20:39:20.081 3d03 Delete type=2 #103
+2023/12/09-20:39:20.081 3d03 Delete type=2 #49
+2023/12/09-20:39:20.081 3d03 Delete type=2 #128
+2023/12/09-20:39:20.081 3d03 Delete type=2 #113
+2023/12/09-20:39:20.081 3d03 Delete type=2 #98
+2023/12/09-20:39:20.081 3d03 Delete type=2 #229
+2023/12/09-20:39:20.081 3d03 Delete type=0 #264
+2023/12/09-20:39:20.081 3d03 Delete type=2 #7
+2023/12/09-20:39:20.081 3d03 Delete type=2 #205
+2023/12/09-20:39:20.081 3d03 Delete type=2 #12
+2023/12/09-20:39:20.081 3d03 Delete type=2 #172
+2023/12/09-20:39:20.081 3d03 Delete type=2 #11
+2023/12/09-20:39:20.081 3d03 Delete type=2 #197
+2023/12/09-20:39:20.081 3d03 Delete type=2 #20
+2023/12/09-20:39:20.081 3d03 Delete type=2 #223
+2023/12/09-20:39:20.081 3d03 Delete type=2 #9
+2023/12/09-20:39:20.081 3d03 Delete type=2 #194
+2023/12/09-20:39:20.081 3d03 Delete type=2 #235
+2023/12/09-20:39:20.081 3d03 Delete type=2 #36
+2023/12/09-20:39:20.081 3d03 Delete type=2 #146
+2023/12/09-20:39:20.081 3d03 Delete type=2 #32
+2023/12/09-20:39:20.081 3d03 Delete type=2 #184
+2023/12/09-20:39:20.081 3d03 Delete type=2 #226
+2023/12/09-20:39:20.081 3d03 Delete type=2 #123
+2023/12/09-20:39:20.081 3d03 Delete type=2 #134
+2023/12/09-20:39:20.081 3d03 Delete type=2 #120
+2023/12/09-20:39:20.081 3d03 Delete type=2 #54
+2023/12/09-20:39:20.081 3d03 Delete type=2 #45
+2023/12/09-20:39:20.081 3d03 Delete type=2 #87
+2023/12/09-20:39:20.081 3d03 Delete type=2 #90

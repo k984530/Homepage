@@ -41,7 +41,7 @@ class Portfolio extends StatelessWidget {
     return Container(
       width: w,
       height: h,
-      color: TitleColor,
+      color: Colors.white.withOpacity(0),
       child: Stack(
         alignment: Alignment.center,
         children: [

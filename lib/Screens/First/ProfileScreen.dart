@@ -2,8 +2,11 @@ import 'dart:math';
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutterweb/Data/HorIndex.dart';
 import 'package:flutterweb/Screens/First/Components/History.dart';
 import 'package:flutterweb/Screens/First/Components/SkillSet.dart';
+import 'package:flutterweb/Screens/First/Portfolios/PortfolioData.dart';
+import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:video_player/video_player.dart';
 
@@ -42,53 +45,51 @@ class _ProfileScreenState extends State<ProfileScreen> {
       alignment: Alignment.center,
       children: [
         Container(
+          height: h,
           width: w,
-          height: h,
-          decoration: BoxDecoration(
-            color: Colors.black,
-          ),
+          color: Colors.white,
+          // child: Stack(
+          //   alignment: Alignment.center,
+          //   children: [
+          //     // SkillSet(),
+          //     // FlipPhone(),
+          //     // Positioned(
+          //     //   top: 150,
+          //     //   right: 420,
+          //     //   child: Text(
+          //     //     '유용한 편리한 즐거운\n서비스',
+          //     //     textAlign: TextAlign.end,
+          //     //     style: GoogleFonts.kiwiMaru(
+          //     //         color: Colors.grey.shade300, fontSize: 30),
+          //     //   ),
+          //     // ),
+          //   ],
+          // ),
         ),
-        Container(
-          height: h,
-          width: 1200,
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              SkillSet(),
-              FlipPhone(),
-              History(),
-              // Positioned(
-              //   top: 150,
-              //   right: 420,
-              //   child: Text(
-              //     '유용한 편리한 즐거운\n서비스',
-              //     textAlign: TextAlign.end,
-              //     style: GoogleFonts.kiwiMaru(
-              //         color: Colors.grey.shade300, fontSize: 30),
-              //   ),
+        Positioned(
+          top: 130,
+          left: 30,
+          right: 30,
+          child: Obx(
+            () => Container(
+              height: h - 160,
+              width: w,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: TitleColors[Get.put(HorIndex()).index.value - 1],
+                borderRadius: BorderRadius.circular(w * 0.05),
+              ),
+              // child: Row(
+              //   children: [
+              //     Column(
+              //       children: [],
+              //     ),
+              //     Column(
+              //       children: [History()],
+              //     )
+              //   ],
               // ),
-              Positioned(
-                left: 50,
-                bottom: 50,
-                height: 750,
-                width: 350,
-                child: ClipRRect(
-                  borderRadius: BorderRadius.circular(20),
-                  child: BackdropFilter(
-                    filter: ImageFilter.blur(sigmaX: 5, sigmaY: 5),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: Colors.white.withOpacity(0.2),
-                        borderRadius: BorderRadius.circular(20),
-                        border: Border.all(
-                          color: Colors.white24,
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
-              )
-            ],
+            ),
           ),
         ),
         Positioned(
@@ -97,7 +98,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
           child: Text(
             "Made by Flutter",
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.blue,
             ),
           ),
         )

@@ -34,10 +34,10 @@ class MainScreen extends StatelessWidget {
             controller: VerScroll,
             child: Column(
               children: [
+                ProfileScreen(),
                 PortfolioScreen(
                   HorScroll: HorScroll,
                 ),
-                ProfileScreen(),
                 Container(
                   width: w,
                   height: h,
