@@ -37,6 +37,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     super.dispose();
   }
 
+  Color FontColor = Color.fromARGB(255, 32, 194, 14);
   @override
   Widget build(BuildContext context) {
     double h = MediaQuery.of(context).size.height;
@@ -47,7 +48,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
         Container(
           height: h,
           width: w,
-          color: Colors.white,
+          color: Colors.black,
           // child: Stack(
           //   alignment: Alignment.center,
           //   children: [
@@ -66,30 +67,116 @@ class _ProfileScreenState extends State<ProfileScreen> {
           //   ],
           // ),
         ),
-        Positioned(
-          top: 130,
-          left: 30,
-          right: 30,
-          child: Obx(
-            () => Container(
-              height: h - 160,
-              width: w,
-              alignment: Alignment.center,
-              decoration: BoxDecoration(
-                color: TitleColors[Get.put(HorIndex()).index.value - 1],
-                borderRadius: BorderRadius.circular(w * 0.05),
+        Container(
+          height: 400,
+          width: w > 600 ? 600 : w - 10,
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            border: Border.all(color: Colors.grey, width: 2.5),
+          ),
+          child: Row(
+            children: [
+              Expanded(
+                flex: 1,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // Text(
+                    //   "TARGET",
+                    //   style: GoogleFonts.silkscreen(
+                    //     color: FontColor,
+                    //     fontSize: 34,
+                    //   ),
+                    // ),
+                    // SizedBox(
+                    //   height: 15,
+                    // ),
+                    Image.asset(
+                      'assets/won.jpeg',
+                      width: 120,
+                    ),
+                    SizedBox(
+                      height: 15,
+                    ),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset(
+                          'assets/git.png',
+                          width: 25,
+                          color: Colors.white,
+                        ),
+                        SizedBox(
+                          width: 25,
+                        ),
+                        Icon(
+                          Icons.mail_outline,
+                          color: Colors.white,
+                          size: 25,
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
-              // child: Row(
-              //   children: [
-              //     Column(
-              //       children: [],
-              //     ),
-              //     Column(
-              //       children: [History()],
-              //     )
-              //   ],
-              // ),
-            ),
+              Expanded(
+                flex: 1,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text.rich(
+                      TextSpan(
+                        text: 'NAME : ',
+                        style: GoogleFonts.silkscreen(
+                            color: FontColor, fontSize: 16),
+                        children: [
+                          TextSpan(
+                            text: "최 원",
+                            style: TextStyle(
+                              fontFamily: 'NeoDunggeunmoPro',
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    SizedBox(
+                      height: 6,
+                    ),
+                    Text(
+                      "JOB : APP DEVELOPER",
+                      style: GoogleFonts.silkscreen(
+                        color: Color.fromARGB(255, 32, 194, 14),
+                        fontSize: 16,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 6,
+                    ),
+                    Text(
+                      "EXPLAIN",
+                      style: GoogleFonts.silkscreen(
+                        color: Color.fromARGB(255, 32, 194, 14),
+                        fontSize: 16,
+                      ),
+                    ),
+                    SizedBox(
+                      height: 6,
+                    ),
+                    Text(
+                      "독창성, 추진성, 감성\n세 박자 개발자\n높은 생산성이 특징",
+                      style: TextStyle(
+                        fontFamily: 'NeoDunggeunmoPro',
+                        fontWeight: FontWeight.w400,
+                        color: FontColor,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ],
+                ),
+              )
+            ],
           ),
         ),
         Positioned(
@@ -97,8 +184,8 @@ class _ProfileScreenState extends State<ProfileScreen> {
           right: 10,
           child: Text(
             "Made by Flutter",
-            style: TextStyle(
-              color: Colors.blue,
+            style: GoogleFonts.silkscreen(
+              color: FontColor,
             ),
           ),
         )

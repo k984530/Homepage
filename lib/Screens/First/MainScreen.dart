@@ -67,12 +67,12 @@ class MainScreen extends StatelessWidget {
               ],
             ),
           ),
-          Positioned(
-            top: 0,
-            width: w,
-            height: 100,
-            child: CustomAppbar(VerScroll: VerScroll),
-          ),
+          // Positioned(
+          //   top: 0,
+          //   width: w,
+          //   height: 100,
+          //   child: CustomAppbar(VerScroll: VerScroll),
+          // ),
         ],
       ),
     );
