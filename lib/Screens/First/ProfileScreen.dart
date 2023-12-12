@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'dart:ui';
 
+import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutterweb/Data/HorIndex.dart';
 import 'package:flutterweb/Screens/First/Components/History.dart';
