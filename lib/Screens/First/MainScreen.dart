@@ -38,32 +38,7 @@ class MainScreen extends StatelessWidget {
                 PortfolioScreen(
                   HorScroll: HorScroll,
                 ),
-                Container(
-                  width: w,
-                  height: h,
-                  child: Stack(
-                    alignment: Alignment.center,
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          gradient: LinearGradient(
-                            colors: [
-                              Colors.deepPurple,
-                              Colors.deepOrange,
-                            ],
-                          ),
-                        ),
-                      ),
-                      Positioned(
-                          left: 0,
-                          right: 0,
-                          top: 0,
-                          child: BackGroundMobile(w, 0)),
-                      Positioned(top: h * 0.33, child: BackGroundMobile(w, 1)),
-                      Positioned(top: h * 0.66, child: BackGroundMobile(w, 2)),
-                    ],
-                  ),
-                )
+                ProfileScreen(),
               ],
             ),
           ),

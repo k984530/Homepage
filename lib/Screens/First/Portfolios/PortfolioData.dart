@@ -2,28 +2,28 @@ import 'package:flutter/material.dart';
 import 'package:flutterweb/Screens/First/Portfolios/Portfolio.dart';
 
 List<Color> TitleColors = [
+  Colors.black,
   Colors.blue,
   Colors.green,
   Colors.amber.shade700,
   Colors.purple.shade700,
-  Colors.black,
   Colors.blue.shade700,
 ];
 
 Portfolio01() => Portfolio(
       TitleColor: TitleColors[0],
-      Title01: 'Fishermap',
-      Title02: ' - 귀어들을 위한 모바일 앱 서비스',
-      UseTool: 'Dart(Flutter), Python(Flask), Git',
-      Period: '2023.11.13 - 2023.11.20 (7일)',
-      Team: '앱 개발자 2명, 인공지능 개발자 1명, App 85 % Server 10 %',
+      Title01: 'Someone',
+      Title02: ' - 연락처 기반 익명 칭찬 앱 서비스',
+      UseTool: 'Dart(Flutter), Python(Django), Firebase, Git',
+      Period: '2023.01.10 - 2023.03.25 (2달)',
+      Team: '1인 개발',
       Expalin:
-          '청년 귀어들을 위한 서비스입니다. 지역별 날씨, 해안 정보, 어종 예측, 어선 중계, 귀어지원사업 공지 모음 기능등을 제공합니다. 인터렉티브한 앱을 만들기위해 애니메이션 효과에 집중하여 만든 앱입니다.',
+          '미국에서 만든 GAS 앱을 모티브로 만든 모바일 앱 서비스입니다. GAS는 익명으로 학교 내에 있는 친구들 중에서 질문에 맞는 사람을 투표하는 앱인데, Someone은 연락처 기반으로 질문에 맞는 사람을 투표하는 서비스입니다. 모든 연락처로 하면 사람이 너무 많아서 차단 기능도 포함되어 있습니다. 120여개의 질문 리스트를 만들었습니다.',
       retrospect:
-          "부산 해양데이터 해커톤에 참여하여 만든 서비스입니다. 단 기간 내에 개발을 해야했기에 비교적 간편한 상태관리 라이브러리인 GetX를 사용해서 구현했습니다. CustomCliper, CustomPainter 등을 사용해서 파도를 표현하였고, Container에 눈과 입을 그렸습니다. Http를 사용하여 웹 크롤링 기능이 가능하다는 것을 알 수 있었습니다. ZWidget을 사용해서 글자에 3D 효과를 더했으며, Flutter가 3D를 기반으로 렌더링 된다는 사실을 알 수 있었습니다.",
-      GitURL: 'https://github.com/k984530/Fishermap',
-      InitImg: 1,
-      Range: 6,
+          'GAS앱의 취지가 좋아서, 국내 도입이 필요하다 판단하고 만들었습니다. GetX로 상태관리를 진행하였고, Firebase와 flutter_local_notifications패키지를 사용하여 푸시 알림 기능을 적용했습니다. Purchase_flutter 패키지로 유료 결제 기능을 포함하여 출시를 했었습니다. 연락처를 다루는 기능이 있어, 개인정보보호법에 위법하지 않도록 주의를 기울여 만들었습니다. 포스터를 제작하여 교내 부착하고, Instagram 마케팅도 진행을 했었던 애착있는 서비스입니다.',
+      GitURL: 'https://github.com/k984530/PublicSomeone',
+      InitImg: 21,
+      Range: 7,
     );
 
 Portfolio02() => Portfolio(
@@ -72,20 +72,21 @@ Portfolio04() => Portfolio(
       InitImg: 18,
       Range: 3,
     );
+
 Portfolio05() => Portfolio(
       TitleColor: TitleColors[4],
-      Title01: 'Someone',
-      Title02: ' - 연락처 기반 익명 칭찬 앱 서비스',
-      UseTool: 'Dart(Flutter), Python(Django), Firebase, Git',
-      Period: '2023.01.10 - 2023.03.25 (2달)',
-      Team: '1인 개발',
+      Title01: 'Fishermap',
+      Title02: ' - 귀어들을 위한 모바일 앱 서비스',
+      UseTool: 'Dart(Flutter), Python(Flask), Git',
+      Period: '2023.11.13 - 2023.11.20 (7일)',
+      Team: '앱 개발자 2명, 인공지능 개발자 1명, App 85 % Server 10 %',
       Expalin:
-          '미국에서 만든 GAS 앱을 모티브로 만든 모바일 앱 서비스입니다. GAS는 익명으로 학교 내에 있는 친구들 중에서 질문에 맞는 사람을 투표하는 앱인데, Someone은 연락처 기반으로 질문에 맞는 사람을 투표하는 서비스입니다. 모든 연락처로 하면 사람이 너무 많아서 차단 기능도 포함되어 있습니다. 120여개의 질문 리스트를 만들었습니다.',
+          '청년 귀어들을 위한 서비스입니다. 지역별 날씨, 해안 정보, 어종 예측, 어선 중계, 귀어지원사업 공지 모음 기능등을 제공합니다. 인터렉티브한 앱을 만들기위해 애니메이션 효과에 집중하여 만든 앱입니다.',
       retrospect:
-          'GAS앱의 취지가 좋아서, 국내 도입이 필요하다 판단하고 만들었습니다. GetX로 상태관리를 진행하였고, Firebase와 flutter_local_notifications패키지를 사용하여 푸시 알림 기능을 적용했습니다. Purchase_flutter 패키지로 유료 결제 기능을 포함하여 출시를 했었습니다. 연락처를 다루는 기능이 있어, 개인정보보호법에 위법하지 않도록 주의를 기울여 만들었습니다. 포스터를 제작하여 교내 부착하고, Instagram 마케팅도 진행을 했었던 애착있는 서비스입니다.',
-      GitURL: 'https://github.com/k984530/PublicSomeone',
-      InitImg: 21,
-      Range: 7,
+          "부산 해양데이터 해커톤에 참여하여 만든 서비스입니다. 단 기간 내에 개발을 해야했기에 비교적 간편한 상태관리 라이브러리인 GetX를 사용해서 구현했습니다. CustomCliper, CustomPainter 등을 사용해서 파도를 표현하였고, Container에 눈과 입을 그렸습니다. Http를 사용하여 웹 크롤링 기능이 가능하다는 것을 알 수 있었습니다. ZWidget을 사용해서 글자에 3D 효과를 더했으며, Flutter가 3D를 기반으로 렌더링 된다는 사실을 알 수 있었습니다.",
+      GitURL: 'https://github.com/k984530/Fishermap',
+      InitImg: 1,
+      Range: 6,
     );
 
 Portfolio06() => Portfolio(
