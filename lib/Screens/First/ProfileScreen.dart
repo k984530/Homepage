@@ -181,10 +181,27 @@ class _ProfileScreenState extends State<ProfileScreen> {
                           ),
                         ],
                       ),
-                    )
+                    ),
                   ],
                 ),
               ),
+              SizedBox(
+                height: 50,
+              ),
+              InkWell(
+                child: Icon(
+                  Icons.arrow_drop_up_sharp,
+                  color: Color.fromARGB(255, 32, 194, 14),
+                  size: 45,
+                ),
+              ),
+              InkWell(
+                child: Icon(
+                  Icons.arrow_drop_down_sharp,
+                  color: Color.fromARGB(255, 32, 194, 14),
+                  size: 45,
+                ),
+              )
             ],
           ),
           Positioned(
