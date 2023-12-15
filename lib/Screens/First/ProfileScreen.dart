@@ -189,6 +189,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 height: 50,
               ),
               InkWell(
+                onTap: () {},
                 child: Icon(
                   Icons.arrow_drop_up_sharp,
                   color: Color.fromARGB(255, 32, 194, 14),
@@ -196,6 +197,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
                 ),
               ),
               InkWell(
+                onTap: () {},
                 child: Icon(
                   Icons.arrow_drop_down_sharp,
                   color: Color.fromARGB(255, 32, 194, 14),
