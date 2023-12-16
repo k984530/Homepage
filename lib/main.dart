@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: "Won's Space",
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.white),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.black),
         useMaterial3: true,
       ),
       home: MainScreen(),

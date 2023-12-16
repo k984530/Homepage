@@ -77,15 +77,15 @@ Stack History() => Stack(
                 SizedBox(
                   height: 40,
                 ),
-                leftHistory("2023.11.12\n콘텐츠 유니버스 코리아 해커톤\n본선 진출"),
+                leftHistory("2023.11.12\n콘텐츠유니버스코리아 해커톤\n본선 진출"),
                 SizedBox(
                   height: 40,
                 ),
-                rightHistory("2023.11.20\n부산 해양데이터 해커톤\n본선 진출"),
+                rightHistory("2023.11.20\n해양데이터 해커톤\n본선 진출"),
                 SizedBox(
                   height: 40,
                 ),
-                leftHistory("2023.11.24\n SW창업경진대회\n우수상 수상"),
+                leftHistory("2023.11.24\nSW창업경진대회\n우수상 수상"),
                 SizedBox(
                   height: 40,
                 ),
@@ -112,7 +112,7 @@ rightHistory(String content) => Stack(
         Positioned(
           child: Container(
             width: 150,
-            height: 60,
+            height: 150,
             margin: EdgeInsets.only(
               left: 200,
               top: 20,
@@ -147,7 +147,7 @@ leftHistory(String content) => Stack(
         Positioned(
           child: Container(
             width: 150,
-            height: 60,
+            height: 150,
             margin: EdgeInsets.only(
               right: 200,
               top: 20,
