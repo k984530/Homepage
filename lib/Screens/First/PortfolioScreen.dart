@@ -3,6 +3,7 @@ import 'package:flutterweb/Data/HorIndex.dart';
 import 'package:flutterweb/Screens/First/Portfolios/Portfolio.dart';
 import 'package:get/get.dart';
 import 'package:get/state_manager.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import 'Components/HorizontalScroll.dart';
 import 'MainScreen.dart';
@@ -92,7 +93,17 @@ class _PortfolioScreenState extends State<PortfolioScreen> {
                 ],
               ),
             ),
-          )
+          ),
+          Positioned(
+            top: 50,
+            child: Text(
+              "PROJECTS",
+              style: GoogleFonts.silkscreen(
+                color: Colors.white,
+                fontSize: 36,
+              ),
+            ),
+          ),
         ],
       ),
     );

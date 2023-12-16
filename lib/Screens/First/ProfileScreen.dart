@@ -43,181 +43,178 @@ class _ProfileScreenState extends State<ProfileScreen> {
   Widget build(BuildContext context) {
     double h = MediaQuery.of(context).size.height;
     double w = MediaQuery.of(context).size.width;
-    return Obx(
-      () => Stack(
-        alignment: Alignment.center,
-        children: [
-          AnimatedContainer(
-            duration: Duration(milliseconds: 200),
-            height: h,
-            width: w,
-            color: TitleColors[Get.put(HorIndex()).index.value - 1],
-            // child: Stack(
-            //   alignment: Alignment.center,
-            //   children: [
-            //     // SkillSet(),
-            //     // FlipPhone(),
-            //     // Positioned(
-            //     //   top: 150,
-            //     //   right: 420,
-            //     //   child: Text(
-            //     //     '유용한 편리한 즐거운\n서비스',
-            //     //     textAlign: TextAlign.end,
-            //     //     style: GoogleFonts.kiwiMaru(
-            //     //         color: Colors.grey.shade300, fontSize: 30),
-            //     //   ),
-            //     // ),
-            //   ],
-            // ),
-          ),
-          Column(
-            children: [
-              Text(
-                "Won's Space",
-                style: GoogleFonts.silkscreen(
-                  color: Color.fromARGB(255, 32, 194, 14),
-                  fontSize: 36,
-                ),
+    return Stack(
+      alignment: Alignment.center,
+      children: [
+        Container(
+          height: h,
+          width: w,
+          color: Colors.black,
+          // child: Stack(
+          //   alignment: Alignment.center,
+          //   children: [
+          //     // SkillSet(),
+          //     // FlipPhone(),
+          //     // Positioned(
+          //     //   top: 150,
+          //     //   right: 420,
+          //     //   child: Text(
+          //     //     '유용한 편리한 즐거운\n서비스',
+          //     //     textAlign: TextAlign.end,
+          //     //     style: GoogleFonts.kiwiMaru(
+          //     //         color: Colors.grey.shade300, fontSize: 30),
+          //     //   ),
+          //     // ),
+          //   ],
+          // ),
+        ),
+        Column(
+          children: [
+            Text(
+              "Won's Space",
+              style: GoogleFonts.silkscreen(
+                color: Color.fromARGB(255, 32, 194, 14),
+                fontSize: 36,
               ),
-              SizedBox(
-                height: 50,
+            ),
+            SizedBox(
+              height: 50,
+            ),
+            Container(
+              height: 400,
+              width: w > 600 ? 600 : w - 10,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: Colors.black,
+                border: Border.all(color: Colors.grey, width: 2.5),
               ),
-              Container(
-                height: 400,
-                width: w > 600 ? 600 : w - 10,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  color: Colors.black,
-                  border: Border.all(color: Colors.grey, width: 2.5),
-                ),
-                child: Row(
-                  children: [
-                    Expanded(
-                      flex: 1,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Image.asset(
-                            'assets/won.jpeg',
-                            width: 120,
-                          ),
-                          SizedBox(
-                            height: 15,
-                          ),
-                          Row(
-                            mainAxisAlignment: MainAxisAlignment.center,
+              child: Row(
+                children: [
+                  Expanded(
+                    flex: 1,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        Image.asset(
+                          'assets/won.jpeg',
+                          width: 120,
+                        ),
+                        SizedBox(
+                          height: 15,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Image.asset(
+                              'assets/git.png',
+                              width: 25,
+                              color: Colors.white,
+                            ),
+                            SizedBox(
+                              width: 25,
+                            ),
+                            Icon(
+                              Icons.mail_outline,
+                              color: Colors.white,
+                              size: 25,
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
+                  Expanded(
+                    flex: 1,
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text.rich(
+                          TextSpan(
+                            text: 'NAME : ',
+                            style: GoogleFonts.silkscreen(
+                                color: FontColor, fontSize: 16),
                             children: [
-                              Image.asset(
-                                'assets/git.png',
-                                width: 25,
-                                color: Colors.white,
-                              ),
-                              SizedBox(
-                                width: 25,
-                              ),
-                              Icon(
-                                Icons.mail_outline,
-                                color: Colors.white,
-                                size: 25,
+                              TextSpan(
+                                text: "최 원",
+                                style: TextStyle(
+                                  fontFamily: 'NeoDunggeunmoPro',
+                                  fontWeight: FontWeight.w400,
+                                ),
                               ),
                             ],
                           ),
-                        ],
-                      ),
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "JOB : APP DEVELOPER",
+                          style: GoogleFonts.silkscreen(
+                            color: Color.fromARGB(255, 32, 194, 14),
+                            fontSize: 16,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "EXPLAIN",
+                          style: GoogleFonts.silkscreen(
+                            color: Color.fromARGB(255, 32, 194, 14),
+                            fontSize: 16,
+                          ),
+                        ),
+                        SizedBox(
+                          height: 6,
+                        ),
+                        Text(
+                          "독창성, 추진성, 감성\n세 박자 개발자\n높은 생산성이 특징",
+                          style: TextStyle(
+                            fontFamily: 'NeoDunggeunmoPro',
+                            fontWeight: FontWeight.w400,
+                            color: FontColor,
+                            fontSize: 16,
+                          ),
+                        ),
+                      ],
                     ),
-                    Expanded(
-                      flex: 1,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text.rich(
-                            TextSpan(
-                              text: 'NAME : ',
-                              style: GoogleFonts.silkscreen(
-                                  color: FontColor, fontSize: 16),
-                              children: [
-                                TextSpan(
-                                  text: "최 원",
-                                  style: TextStyle(
-                                    fontFamily: 'NeoDunggeunmoPro',
-                                    fontWeight: FontWeight.w400,
-                                  ),
-                                ),
-                              ],
-                            ),
-                          ),
-                          SizedBox(
-                            height: 6,
-                          ),
-                          Text(
-                            "JOB : APP DEVELOPER",
-                            style: GoogleFonts.silkscreen(
-                              color: Color.fromARGB(255, 32, 194, 14),
-                              fontSize: 16,
-                            ),
-                          ),
-                          SizedBox(
-                            height: 6,
-                          ),
-                          Text(
-                            "EXPLAIN",
-                            style: GoogleFonts.silkscreen(
-                              color: Color.fromARGB(255, 32, 194, 14),
-                              fontSize: 16,
-                            ),
-                          ),
-                          SizedBox(
-                            height: 6,
-                          ),
-                          Text(
-                            "독창성, 추진성, 감성\n세 박자 개발자\n높은 생산성이 특징",
-                            style: TextStyle(
-                              fontFamily: 'NeoDunggeunmoPro',
-                              fontWeight: FontWeight.w400,
-                              color: FontColor,
-                              fontSize: 16,
-                            ),
-                          ),
-                        ],
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              SizedBox(
-                height: 50,
-              ),
-              InkWell(
-                onTap: () {},
-                child: Icon(
-                  Icons.arrow_drop_up_sharp,
-                  color: Color.fromARGB(255, 32, 194, 14),
-                  size: 45,
-                ),
-              ),
-              InkWell(
-                onTap: () {},
-                child: Icon(
-                  Icons.arrow_drop_down_sharp,
-                  color: Color.fromARGB(255, 32, 194, 14),
-                  size: 45,
-                ),
-              )
-            ],
-          ),
-          Positioned(
-            bottom: 10,
-            right: 10,
-            child: Text(
-              "Made by Flutter",
-              style: GoogleFonts.silkscreen(
-                color: FontColor,
+                  ),
+                ],
               ),
             ),
-          )
-        ],
-      ),
+            SizedBox(
+              height: 50,
+            ),
+            InkWell(
+              onTap: () {},
+              child: Icon(
+                Icons.arrow_drop_up_sharp,
+                color: Color.fromARGB(255, 32, 194, 14),
+                size: 45,
+              ),
+            ),
+            InkWell(
+              onTap: () {},
+              child: Icon(
+                Icons.arrow_drop_down_sharp,
+                color: Color.fromARGB(255, 32, 194, 14),
+                size: 45,
+              ),
+            )
+          ],
+        ),
+        Positioned(
+          bottom: 10,
+          right: 10,
+          child: Text(
+            "Made by Flutter",
+            style: GoogleFonts.silkscreen(
+              color: FontColor,
+            ),
+          ),
+        )
+      ],
     );
   }
 }
