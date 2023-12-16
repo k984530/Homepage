@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:js' as js;
 
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:flutter/material.dart';
@@ -265,9 +266,7 @@ class Portfolio extends StatelessWidget {
                             if (GitURL != 'None')
                               InkWell(
                                 onTap: () async {
-                                  launchUrl(
-                                    Uri.parse(GitURL),
-                                  );
+                                  js.context.callMethod("open", [GitURL]);
                                 },
                                 child: Image.asset(
                                   'assets/git.png',

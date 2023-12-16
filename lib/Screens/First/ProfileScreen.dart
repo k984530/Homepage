@@ -1,14 +1,17 @@
 import 'dart:math';
 import 'dart:ui';
+import 'dart:js' as js;
 
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutterweb/Data/HorIndex.dart';
 import 'package:flutterweb/Screens/First/Components/History.dart';
 import 'package:flutterweb/Screens/First/Components/SkillSet.dart';
 import 'package:flutterweb/Screens/First/Portfolios/PortfolioData.dart';
 import 'package:get/get.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:video_player/video_player.dart';
 
 import 'Components/FlipPhone.dart';
@@ -50,23 +53,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
           height: h,
           width: w,
           color: Colors.black,
-          // child: Stack(
-          //   alignment: Alignment.center,
-          //   children: [
-          //     // SkillSet(),
-          //     // FlipPhone(),
-          //     // Positioned(
-          //     //   top: 150,
-          //     //   right: 420,
-          //     //   child: Text(
-          //     //     '유용한 편리한 즐거운\n서비스',
-          //     //     textAlign: TextAlign.end,
-          //     //     style: GoogleFonts.kiwiMaru(
-          //     //         color: Colors.grey.shade300, fontSize: 30),
-          //     //   ),
-          //     // ),
-          //   ],
-          // ),
         ),
         Column(
           children: [
@@ -105,18 +91,38 @@ class _ProfileScreenState extends State<ProfileScreen> {
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            Image.asset(
-                              'assets/git.png',
-                              width: 25,
-                              color: Colors.white,
+                            InkWell(
+                              onTap: () {
+                                js.context.callMethod(
+                                    "open", ["https://github.com/k984530"]);
+                              },
+                              child: Image.asset(
+                                'assets/git.png',
+                                width: 25,
+                                color: Colors.white,
+                              ),
                             ),
                             SizedBox(
                               width: 25,
                             ),
-                            Icon(
-                              Icons.mail_outline,
-                              color: Colors.white,
-                              size: 25,
+                            InkWell(
+                              onTap: () {
+                                Clipboard.setData(
+                                  ClipboardData(
+                                      text: 'alyduho984530@gmail.com'),
+                                );
+                                Get.closeAllSnackbars();
+                                Get.snackbar(
+                                  '이메일이 클립보드에 저장되었습니다.',
+                                  'alyduho984530@gmail.com',
+                                  backgroundColor: Colors.white,
+                                );
+                              },
+                              child: Icon(
+                                Icons.mail_outline,
+                                color: Colors.white,
+                                size: 25,
+                              ),
                             ),
                           ],
                         ),

@@ -38,7 +38,6 @@ class MainScreen extends StatelessWidget {
                 PortfolioScreen(
                   HorScroll: HorScroll,
                 ),
-                ProfileScreen(),
               ],
             ),
           ),
