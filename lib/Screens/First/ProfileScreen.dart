@@ -42,7 +42,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
     super.dispose();
   }
 
-  int i = 1;
+  int i = 0;
   Color FontColor = Color.fromARGB(255, 32, 194, 14);
   @override
   Widget build(BuildContext context) {
