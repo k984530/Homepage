@@ -1,2 +1,61 @@
-2023/12/09-17:54:25.404 8207 Creating DB /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb since it was missing.
-2023/12/09-17:54:25.418 8207 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.pGHKcU/flutter_tools_chrome_device.tQqVHH/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/16-20:32:06.512 8207 Reusing MANIFEST /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.FyrkuA/flutter_tools_chrome_device.8iqmMA/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/16-20:32:06.512 8207 Recovering log #3
+2023/12/16-20:32:06.514 8207 Level-0 table #3: started
+2023/12/16-20:32:06.519 8207 Level-0 table #3: 92447 bytes OK
+2023/12/16-20:32:06.519 8207 Recovering log #18
+2023/12/16-20:32:06.522 8207 Level-0 table #4: started
+2023/12/16-20:32:06.528 8207 Level-0 table #4: 546589 bytes OK
+2023/12/16-20:32:06.528 8207 Recovering log #22
+2023/12/16-20:32:06.534 8207 Level-0 table #19: started
+2023/12/16-20:32:06.541 8207 Level-0 table #19: 1018997 bytes OK
+2023/12/16-20:32:06.541 8207 Recovering log #26
+2023/12/16-20:32:06.543 8207 Level-0 table #23: started
+2023/12/16-20:32:06.547 8207 Level-0 table #23: 306265 bytes OK
+2023/12/16-20:32:06.547 8207 Recovering log #30
+2023/12/16-20:32:06.548 8207 Level-0 table #27: started
+2023/12/16-20:32:06.552 8207 Level-0 table #27: 274946 bytes OK
+2023/12/16-20:32:06.553 8207 Recovering log #34
+2023/12/16-20:32:06.557 8207 Level-0 table #31: started
+2023/12/16-20:32:06.563 8207 Level-0 table #31: 995534 bytes OK
+2023/12/16-20:32:06.563 8207 Recovering log #38
+2023/12/16-20:32:06.568 8207 Level-0 table #35: started
+2023/12/16-20:32:06.573 8207 Level-0 table #35: 728354 bytes OK
+2023/12/16-20:32:06.573 8207 Recovering log #53
+2023/12/16-20:32:06.577 8207 Level-0 table #39: started
+2023/12/16-20:32:06.582 8207 Level-0 table #39: 772071 bytes OK
+2023/12/16-20:32:06.583 8207 Recovering log #59
+2023/12/16-20:32:06.589 8207 Level-0 table #54: started
+2023/12/16-20:32:06.596 8207 Level-0 table #54: 1055443 bytes OK
+2023/12/16-20:32:06.597 8207 Recovering log #64
+2023/12/16-20:32:06.599 8207 Reusing old log /private/var/folders/k6/7n5726ls34gbn36b1k8xc4m80000gn/T/flutter_tools.FyrkuA/flutter_tools_chrome_device.8iqmMA/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000064.log 
+2023/12/16-20:32:06.605 8207 Delete type=2 #62
+2023/12/16-20:32:06.605 8207 Delete type=0 #38
+2023/12/16-20:32:06.605 8207 Delete type=0 #3
+2023/12/16-20:32:06.605 8207 Delete type=2 #66
+2023/12/16-20:32:06.605 8207 Delete type=0 #59
+2023/12/16-20:32:06.605 8207 Delete type=2 #28
+2023/12/16-20:32:06.605 8207 Delete type=2 #20
+2023/12/16-20:32:06.605 8207 Delete type=2 #36
+2023/12/16-20:32:06.605 8207 Delete type=0 #53
+2023/12/16-20:32:06.605 8207 Delete type=2 #32
+2023/12/16-20:32:06.605 8207 Delete type=2 #24
+2023/12/16-20:32:06.605 8207 Delete type=0 #26
+2023/12/16-20:32:06.605 8207 Delete type=2 #40
+2023/12/16-20:32:06.605 8207 Delete type=2 #55
+2023/12/16-20:32:06.605 8207 Delete type=0 #18
+2023/12/16-20:32:06.605 8207 Delete type=0 #30
+2023/12/16-20:32:06.605 8207 Delete type=0 #34
+2023/12/16-20:32:06.605 8207 Delete type=0 #22
+2023/12/16-20:32:06.610 8703 Compacting 9@0 + 0@1 files
+2023/12/16-20:32:06.631 8703 Generated table #65@0: 914 keys, 172422 bytes
+2023/12/16-20:32:06.631 8703 Compacted 9@0 + 0@1 files => 172422 bytes
+2023/12/16-20:32:06.638 8703 compacted to: files[ 0 1 0 0 0 0 0 ]
+2023/12/16-20:32:06.639 8703 Delete type=2 #3
+2023/12/16-20:32:06.639 8703 Delete type=2 #4
+2023/12/16-20:32:06.639 8703 Delete type=2 #39
+2023/12/16-20:32:06.639 8703 Delete type=2 #35
+2023/12/16-20:32:06.639 8703 Delete type=2 #23
+2023/12/16-20:32:06.639 8703 Delete type=2 #27
+2023/12/16-20:32:06.639 8703 Delete type=2 #31
+2023/12/16-20:32:06.639 8703 Delete type=2 #19
+2023/12/16-20:32:06.639 8703 Delete type=2 #54
